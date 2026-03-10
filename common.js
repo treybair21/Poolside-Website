@@ -3,7 +3,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
 <nav role="navigation" aria-label="Main navigation">
     <div class="logo">
         <a href="/">
-            <img src="https://static.wixstatic.com/media/8d06ac_156024b27ebc40fb862bff2f6835f9db~mv2.png" alt="Poolside Business Brokers - Home">
+            <img src="PBB Horizontal Logo Thumbnail.png" alt="Poolside Business Brokers - Home">
         </a>
     </div>
     <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks" onclick="toggleMenu()">&#9776;</button>
@@ -22,7 +22,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
 const footerHTML = `<footer role="contentinfo">
     <div class="footer-content">
         <div class="footer-section">
-            <h3>Poolside Business Brokers</h3>
+            <img src="PBB Vertical Logo Thumbnail.png" alt="Poolside Business Brokers" class="footer-logo">
             <p><strong>Phone:</strong> <a href="tel:+15126937086">(512) 693-7086</a></p>
             <p><strong>Email:</strong> <a href="mailto:info@poolsidebrokers.com">info@poolsidebrokers.com</a></p>
         </div>
