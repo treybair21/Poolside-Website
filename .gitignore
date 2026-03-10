@@ -1,3 +1,4 @@
-Instantly API Key.txt
 *.env
 .env.*
+.DS_Store
+node_modules/
