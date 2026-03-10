@@ -66,14 +66,13 @@
         /* Hero - Homepage */
         .hero-home {
             position: relative;
-            padding: 160px 48px 140px;
-            min-height: 680px;
+            padding: 140px 48px 120px;
+            min-height: 620px;
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background: var(--charcoal);
-            border-bottom: 1px solid var(--dark-border);
+            background: var(--navy);
         }
 
         .hero-video {
@@ -84,7 +83,7 @@
             height: 100%;
             object-fit: cover;
             z-index: 0;
-            opacity: 0.2;
+            opacity: 0.15;
         }
 
         .hero-home::before {
@@ -94,7 +93,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(180deg, rgba(10,10,10,0.6) 0%, rgba(20,20,20,0.85) 100%);
+            background: linear-gradient(180deg, rgba(15,23,42,0.7) 0%, rgba(30,58,95,0.85) 100%);
             z-index: 1;
         }
 
@@ -109,7 +108,7 @@
             font-size: 0.75em;
             letter-spacing: 0.25em;
             text-transform: uppercase;
-            color: var(--gold);
+            color: rgba(255,255,255,0.6);
             margin-bottom: 24px;
             font-weight: 500;
         }
@@ -126,7 +125,7 @@
 
         .hero-content p {
             font-size: 1.15em;
-            color: var(--text-muted);
+            color: rgba(255,255,255,0.7);
             max-width: 580px;
             margin: 0 auto;
             line-height: 1.8;
@@ -142,9 +141,9 @@
 
         /* Trust Bar */
         .trust-bar {
-            background: var(--dark);
+            background: var(--off-white);
             padding: 48px;
-            border-bottom: 1px solid var(--dark-border);
+            border-bottom: 1px solid var(--border);
         }
 
         .trust-bar-inner {
@@ -163,7 +162,7 @@
         .trust-number {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2.4em;
-            color: var(--gold);
+            color: var(--blue);
             font-weight: 700;
             line-height: 1.2;
             margin-bottom: 8px;
@@ -182,7 +181,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 80px;
-            padding: 120px 48px;
+            padding: 100px 48px;
             max-width: 1100px;
             margin: 0 auto;
             align-items: center;
@@ -192,16 +191,16 @@
             font-size: 0.75em;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color: var(--gold);
+            color: var(--blue);
             margin-bottom: 16px;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .about-content h2 {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2.6em;
             margin-bottom: 28px;
-            color: var(--white);
+            color: var(--text-heading);
             font-weight: 700;
             letter-spacing: -0.02em;
             line-height: 1.15;
@@ -221,82 +220,83 @@
         .about-highlights {
             display: flex;
             flex-direction: column;
-            gap: 28px;
+            gap: 20px;
         }
 
         .highlight-item {
-            padding: 32px;
-            background: var(--dark);
-            border: 1px solid var(--dark-border);
-            border-radius: var(--radius);
+            padding: 28px;
+            background: var(--off-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
         }
 
         .highlight-item h3 {
-            font-size: 1.1em;
-            color: var(--white);
-            margin-bottom: 10px;
+            font-size: 1.05em;
+            color: var(--text-heading);
+            margin-bottom: 8px;
             font-weight: 600;
         }
 
         .highlight-item p {
-            color: var(--text-muted);
+            color: var(--text-body);
             line-height: 1.75;
             font-size: 0.95em;
         }
 
         /* Process Section */
         .process {
-            background: var(--dark);
-            padding: 120px 48px;
-            border-top: 1px solid var(--dark-border);
-            border-bottom: 1px solid var(--dark-border);
+            background: var(--off-white);
+            padding: 100px 48px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
         }
 
         .process-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 32px;
+            gap: 28px;
             max-width: 1100px;
             margin: 0 auto;
         }
 
         .process-step {
-            padding: 36px 28px;
-            border: 1px solid var(--dark-border);
-            border-radius: var(--radius);
-            transition: border-color 0.3s;
-            background: var(--charcoal);
+            padding: 32px 24px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            transition: box-shadow 0.2s, border-color 0.2s;
+            background: var(--white);
         }
 
         .process-step:hover {
-            border-color: var(--gold);
+            border-color: var(--blue);
+            box-shadow: 0 4px 16px rgba(44,82,130,0.08);
         }
 
         .step-num {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2em;
-            color: var(--gold);
+            color: var(--blue);
             font-weight: 700;
             margin-bottom: 20px;
             line-height: 1;
         }
 
         .process-step h3 {
-            font-size: 1.15em;
-            margin-bottom: 14px;
-            color: var(--white);
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: var(--text-heading);
             font-weight: 600;
         }
 
         .process-step p {
-            color: var(--text-muted);
+            color: var(--text-body);
             line-height: 1.75;
             font-size: 0.93em;
         }
 
         /* Commission Section */
         .commission {
-            padding: 120px 48px;
+            padding: 100px 48px;
             max-width: 1100px;
             margin: 0 auto;
         }
@@ -312,15 +312,15 @@
             font-size: 0.75em;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color: var(--gold);
+            color: var(--blue);
             margin-bottom: 16px;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .commission-left h2 {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2.6em;
-            color: var(--white);
+            color: var(--text-heading);
             margin-bottom: 28px;
             font-weight: 700;
             line-height: 1.15;
@@ -341,13 +341,15 @@
 
         .comparison-card {
             padding: 32px;
-            border: 1px solid var(--dark-border);
-            border-radius: var(--radius);
-            background: var(--dark);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            background: var(--off-white);
         }
 
         .comparison-card.ours {
-            border-color: var(--gold);
+            border-color: var(--blue);
+            border-width: 2px;
+            background: var(--blue-bg);
         }
 
         .comparison-card .comp-label {
@@ -360,13 +362,13 @@
         }
 
         .comparison-card.ours .comp-label {
-            color: var(--gold);
+            color: var(--blue);
         }
 
         .comparison-card .comp-rate {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2.8em;
-            color: var(--white);
+            color: var(--text-heading);
             font-weight: 700;
             line-height: 1;
             margin-bottom: 12px;
@@ -374,16 +376,16 @@
 
         .comparison-card .comp-detail {
             font-size: 0.93em;
-            color: var(--text-muted);
+            color: var(--text-body);
             line-height: 1.6;
         }
 
         /* Buyer Network */
         .buyer-network {
-            background: var(--dark);
-            padding: 120px 48px;
-            border-top: 1px solid var(--dark-border);
-            border-bottom: 1px solid var(--dark-border);
+            background: var(--off-white);
+            padding: 100px 48px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
         }
 
         .network-content {
@@ -398,7 +400,7 @@
         .network-left h2 {
             font-family: 'Playfair Display', Georgia, serif;
             font-size: 2.6em;
-            color: var(--white);
+            color: var(--text-heading);
             margin-bottom: 28px;
             font-weight: 700;
             line-height: 1.15;
@@ -408,9 +410,9 @@
             font-size: 0.75em;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color: var(--gold);
+            color: var(--blue);
             margin-bottom: 16px;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .network-left p {
@@ -439,22 +441,23 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 1px solid var(--gold);
+            background: var(--blue-bg);
+            border: 1px solid var(--blue);
             border-radius: var(--radius);
-            color: var(--gold);
+            color: var(--blue);
             font-size: 1em;
             font-weight: 700;
         }
 
         .network-feature h4 {
-            color: var(--white);
+            color: var(--text-heading);
             font-size: 1em;
             font-weight: 600;
             margin-bottom: 4px;
         }
 
         .network-feature p {
-            color: var(--text-muted);
+            color: var(--text-body);
             font-size: 0.93em;
             line-height: 1.6;
         }
@@ -463,8 +466,7 @@
         .cta-banner {
             padding: 100px 48px;
             text-align: center;
-            background: var(--charcoal);
-            border-bottom: 1px solid var(--dark-border);
+            background: var(--navy);
         }
 
         .cta-banner h2 {
@@ -477,7 +479,7 @@
 
         .cta-banner p {
             font-size: 1.08em;
-            color: var(--text-muted);
+            color: rgba(255,255,255,0.7);
             max-width: 560px;
             margin: 0 auto 40px;
             line-height: 1.8;
@@ -492,7 +494,7 @@
 
         /* Contact Section */
         .contact {
-            padding: 120px 48px;
+            padding: 100px 48px;
             max-width: 640px;
             margin: 0 auto;
         }
@@ -507,10 +509,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 24px;
-            margin-top: 60px;
+            margin-top: 48px;
             padding: 32px;
-            border: 1px solid var(--dark-border);
-            border-radius: var(--radius);
+            background: var(--off-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
         }
 
         .contact-item {
@@ -528,15 +531,15 @@
         }
 
         .contact-item a {
-            color: var(--gold);
+            color: var(--blue);
             text-decoration: none;
             font-weight: 600;
             font-size: 1.1em;
-            transition: color 0.3s;
+            transition: color 0.2s;
         }
 
         .contact-item a:hover {
-            color: var(--gold-light);
+            color: var(--blue-dark);
         }
 
         /* Responsive */
