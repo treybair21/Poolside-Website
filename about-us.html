@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Poolside Business Brokers</title>
+    <meta name="description" content="Learn about Poolside Business Brokers - nationwide pool route experts with 1,500+ accounts transacted. We provide operator expertise, transparent valuations, and comprehensive transition support.">
+    <meta name="keywords" content="pool route broker about, pool business broker company, nationwide pool service broker, pool route experts, professional pool business sales, pool route operator experience">
+    <link rel="canonical" href="https://poolsidebrokers.com/about-us">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://poolsidebrokers.com/about-us.html">
+    <meta property="og:title" content="About Poolside Business Brokers">
+    <meta property="og:description" content="Your trusted pool route experts providing personalized service and comprehensive transition support.">
+    <meta property="og:image" content="https://poolsidebrokers.com/og-image.jpg">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2d3748;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #4299e1;
+        }
+
+        .nav-links a.phone-btn {
+            color: white !important;
+        }
+
+        .nav-links a.phone-btn:hover {
+            color: white !important;
+        }
+
+        .phone-btn {
+            background: #2d3748;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .phone-btn:hover {
+            background: #1a202c;
+            color: white !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(-45deg, #2d3748, #4a5568, #2c5282, #2d3748);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+            padding: 100px 40px;
+            text-align: center;
+            color: white;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Our Story Section */
+        .story {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 100px 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .story-text h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #2d3748;
+        }
+
+        .story-content {
+            font-size: 1.15em;
+            line-height: 1.9;
+            color: #4a5568;
+        }
+
+        .story-content p {
+            margin-bottom: 25px;
+        }
+
+        .story-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .story-image img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Values Section */
+        .values {
+            background: #f7fafc;
+            padding: 100px 40px;
+        }
+
+        .values h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 60px;
+            color: #2d3748;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .value-card {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        .value-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .value-card p {
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+            padding: 80px 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .cta h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-btn {
+            background: white;
+            color: #2d3748;
+            padding: 15px 40px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #f7fafc;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 60px 40px 30px;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #2d3748;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px 20px;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1.1em;
+            }
+
+            .story {
+                grid-template-columns: 1fr;
+            }
+
+            .story-image {
+                order: -1;
+            }
+
+            .story-text h2 {
+                font-size: 2em;
+            }
+
+            .values h2 {
+                font-size: 2em;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta h2 {
+                font-size: 2em;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8V7FH38J0R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8V7FH38J0R');
+</script>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>About Poolside Business Brokers</h1>
+        <p>We're not just brokers—we're pool route operators who've been on both sides of the table</p>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story">
+        <div class="story-text">
+            <h2>Our Story</h2>
+            <div class="story-content">
+                <p>Poolside Business Brokers was founded on a simple insight: the pool route brokerage industry needed operators who truly understood the business from the inside out. After transacting over 1,500 pool service accounts through firsthand buying, selling, and operating experience, we saw the gaps in how traditional brokers operated—generic valuations, impersonal service, and a lack of real understanding about what makes a route valuable.</p>
+                
+                <p>We started Poolside Business Brokers to bridge that gap. Our team has built and scaled pool service companies from scratch, managed operations, and successfully transitioned routes to new owners. This hands-on experience gives us unique insight into what buyers are really looking for and what sellers need to maximize their exit.</p>
+                
+                <p>Today, we bring that operator-level expertise to every transaction nationwide. We offer two distinct paths: sell-side brokerage for any size route with hands-on consulting at fair pricing, and buy-side advisory for larger routes (100+ accounts) where we optimize operations and match sellers directly with qualified buyers. After a discovery call, we determine which path maximizes value for your specific situation.</p>
+            </div>
+        </div>
+        <div class="story-image">
+            <img src="Poolside-Business-Brokers-Team-Photo.jpg" alt="Poolside Business Brokers Team">
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values">
+        <h2>Our Values</h2>
+        <div class="values-grid">
+            <div class="value-card">
+                <h3>Transparency</h3>
+                <p>We believe in clear, honest communication throughout the entire process. No hidden fees, no surprises—just straightforward guidance you can trust.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>Expertise</h3>
+                <p>Our team has transacted over 1,500 pool service accounts and built pool service companies from the ground up. This real-world operating experience goes far beyond typical broker knowledge.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>Results</h3>
+                <p>We're focused on getting you the best possible outcome—whether that's maximizing your sale price or finding the perfect route to buy.</p>
+            </div>
+
+            <div class="value-card">
+                <h3>Partnership</h3>
+                <p>We view every client relationship as a partnership. Your success is our success, and we're committed to being there every step of the way.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2>Ready to Work Together?</h2>
+        <p>Whether you're selling your route or exploring acquisition opportunities, we bring operator expertise and hands-on support to guide you through the process.</p>
+        <a href="contact.html" class="cta-btn">Get Started Today</a>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+        <script src="common.js"></script>
+</body>
+</html>

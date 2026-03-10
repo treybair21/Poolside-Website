@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+
+# Enable pretty URLs (serve /about-us.html when accessing /about-us)
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
+  force = false
+  
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
