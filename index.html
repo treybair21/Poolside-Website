@@ -8,137 +8,70 @@
     <meta name="keywords" content="pool route broker, pool service business for sale, buy pool route, sell pool route, pool business broker, Texas pool routes, Florida pool routes, Arizona pool routes, Nevada pool routes, California pool routes, pool route valuation, pool service acquisition">
     <meta name="author" content="Poolside Business Brokers">
     <link rel="canonical" href="https://poolsidebrokers.com">
-    
-    <!-- Preconnect to external domains for faster loading -->
-    <link rel="preconnect" href="https://static.wixstatic.com">
-    <link rel="dns-prefetch" href="https://static.wixstatic.com">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://poolsidebrokers.com">
-    <meta property="og:title" content="Poolside Business Brokers | Pool Route Experts">
-    <meta property="og:description" content="Expert pool route brokers providing tailored valuations and full transition support. Buy or sell pool routes with confidence.">
-    <meta property="og:site_name" content="Poolside Business Brokers">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Poolside Business Brokers | Pool Route Experts">
-    <meta name="twitter:description" content="Expert pool route brokers providing tailored valuations and full transition support.">
-    
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://poolsidebrokers.com">
     <meta property="og:title" content="Poolside Business Brokers | Pool Route Experts">
     <meta property="og:description" content="Expert pool route brokers providing tailored valuations, personalized buyer outreach, and full transition support.">
-    <meta property="og:image" content="https://poolsidebrokers.com/og-image.jpg">
-    
+    <meta property="og:image" content="https://poolsidebrokers.com/Poolside-Business-Brokers-Team-Photo.jpg">
+    <meta property="og:site_name" content="Poolside Business Brokers">
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://poolsidebrokers.com">
     <meta name="twitter:title" content="Poolside Business Brokers | Pool Route Experts">
-    <meta name="twitter:description" content="Expert pool route brokers providing tailored valuations, personalized buyer outreach, and full transition support.">
-    <meta name="twitter:image" content="https://poolsidebrokers.com/twitter-image.jpg">
-    
+    <meta name="twitter:description" content="Expert pool route brokers providing tailored valuations and full transition support.">
+    <meta name="twitter:image" content="https://poolsidebrokers.com/Poolside-Business-Brokers-Team-Photo.jpg">
+
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8V7FH38J0R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8V7FH38J0R');
+    </script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Poolside Business Brokers",
+      "description": "Expert pool route brokers providing tailored valuations, personalized buyer outreach, and full transition support for pool service businesses.",
+      "url": "https://poolsidebrokers.com",
+      "telephone": "+1-512-693-7086",
+      "email": "info@poolsidebrokers.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "priceRange": "$$",
+      "serviceType": "Pool Route Brokerage"
+    }
+    </script>
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #2d3748;
-        }
-
-        /* Navigation */
-        nav {
-            background: white;
-            padding: 20px 40px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .logo img {
-            height: 40px;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 30px;
-            align-items: center;
-            list-style: none;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #2d3748;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #4299e1;
-        }
-
-        .nav-links a.phone-btn {
-            color: white !important;
-        }
-
-        .nav-links a.phone-btn:hover {
-            color: white !important;
-        }
-
-        .phone-btn {
-            background: #2d3748;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-
-        .phone-btn:hover {
-            background: #1a202c;
-        }
-
-        /* Hero Section */
-        .hero {
+        /* Hero - Homepage specific */
+        .hero-home {
             position: relative;
-            padding: 120px 40px;
-            text-align: center;
-            color: white;
-            overflow: hidden;
-            min-height: 600px;
+            padding: 140px 40px;
+            min-height: 620px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(-45deg, #2d3748, #4a5568, #2c5282, #2d3748);
-            background-size: 400% 400%;
-            animation: gradientShift 15s ease infinite;
-        }
-
-        @keyframes gradientShift {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
+            overflow: hidden;
         }
 
         .hero-video {
@@ -151,68 +84,30 @@
             z-index: 0;
         }
 
-        .hero::before {
+        .hero-home::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(45, 55, 72, 0.6);
+            background: linear-gradient(135deg, rgba(26,32,44,0.8) 0%, rgba(44,82,130,0.7) 100%);
             z-index: 1;
         }
 
         .hero-content {
             position: relative;
             z-index: 2;
-            max-width: 900px;
-        }
-
-        .hero h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .hero p {
-            font-size: 1.3em;
-            margin-bottom: 40px;
             max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
         }
 
         .hero-ctas {
             display: flex;
-            gap: 20px;
+            gap: 16px;
             justify-content: center;
             flex-wrap: wrap;
-        }
-
-        .cta-btn {
-            background: #4299e1;
-            color: white;
-            padding: 15px 40px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1em;
-            display: inline-block;
-            transition: background 0.3s;
-        }
-
-        .cta-btn:hover {
-            background: #3182ce;
-        }
-
-        .cta-btn-secondary {
-            background: white;
-            color: #2d3748;
-            border: 2px solid white;
-        }
-
-        .cta-btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.9);
+            margin-top: 36px;
         }
 
         /* About Section */
@@ -221,27 +116,41 @@
             grid-template-columns: 1fr 1fr;
             gap: 60px;
             padding: 100px 40px;
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             align-items: center;
         }
 
         .about-content h2 {
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            color: #2d3748;
+            font-size: 2.4em;
+            margin-bottom: 24px;
+            color: #1a202c;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
         }
 
         .about-content p {
-            font-size: 1.1em;
-            margin-bottom: 30px;
+            font-size: 1.08em;
+            margin-bottom: 28px;
             color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .about-content a {
+            color: #3182ce;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .about-content a:hover {
+            text-decoration: underline;
         }
 
         .about-image img {
             width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
         }
 
         /* Process Section */
@@ -250,196 +159,173 @@
             padding: 100px 40px;
         }
 
-        .process h2 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #2d3748;
-        }
-
-        .process-intro {
-            text-align: center;
-            font-size: 1.1em;
-            color: #4a5568;
-            max-width: 800px;
-            margin: 0 auto 60px;
-        }
-
         .process-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px;
-            max-width: 1400px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 28px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .process-step {
             background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #e2e8f0;
+        }
+
+        .process-step:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
         }
 
         .process-step h3 {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-            color: #2d3748;
+            font-size: 1.3em;
+            margin-bottom: 14px;
+            color: #1a202c;
+            font-weight: 700;
         }
 
         .process-step p {
             color: #4a5568;
-            line-height: 1.8;
+            line-height: 1.75;
+            font-size: 0.97em;
+        }
+
+        .process-step p a {
+            color: #3182ce;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .process-step p a:hover {
+            text-decoration: underline;
         }
 
         /* Packages Section */
         .packages {
             padding: 100px 40px;
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
-        .packages h2 {
+        .intro-text {
+            max-width: 700px;
+            margin: 0 auto 50px;
             text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 60px;
-            color: #2d3748;
+        }
+
+        .intro-text p {
+            font-size: 1.1em;
+            color: #4a5568;
+            line-height: 1.7;
         }
 
         .packages-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 32px;
         }
 
         .package-card {
             background: white;
-            border: 2px solid #e2e8f0;
-            border-radius: 8px;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 12px;
             padding: 40px;
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
 
         .package-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+        }
+
+        .package-card.premium {
+            border-color: #3182ce;
+            border-width: 2px;
+            position: relative;
         }
 
         .package-card h3 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
-            color: #2d3748;
+            font-size: 1.6em;
+            margin-bottom: 8px;
+            color: #1a202c;
+            font-weight: 800;
         }
 
         .package-card .tagline {
-            font-size: 1.1em;
+            font-size: 1.05em;
             color: #4a5568;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-weight: 500;
+        }
+
+        .package-card .package-description {
+            color: #4a5568;
+            margin-bottom: 24px;
+            line-height: 1.7;
         }
 
         .package-card ul {
             list-style: none;
-            margin-bottom: 30px;
+            margin-bottom: 28px;
         }
 
         .package-card ul li {
-            padding: 10px 0;
+            padding: 8px 0;
             color: #4a5568;
             position: relative;
-            padding-left: 25px;
+            padding-left: 28px;
+            line-height: 1.5;
         }
 
         .package-card ul li:before {
-            content: "✓";
+            content: "\2713";
             position: absolute;
             left: 0;
-            color: #48bb78;
+            color: #38a169;
             font-weight: bold;
         }
 
         .package-info {
-            border-top: 2px solid #e2e8f0;
+            border-top: 1.5px solid #e2e8f0;
             padding-top: 20px;
             margin-top: 20px;
         }
 
         .package-info p {
             color: #4a5568;
-            margin-bottom: 10px;
-            line-height: 1.8;
+            margin-bottom: 8px;
+            line-height: 1.7;
         }
 
-        .comparison-note {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 1.1em;
-            color: #2d3748;
-            font-weight: 600;
-        }
-
-        .intro-text {
-            max-width: 900px;
-            margin: 0 auto 60px;
-            text-align: center;
-        }
-
-        .intro-text h3 {
-            font-size: 1.8em;
-            color: #2d3748;
-            margin-bottom: 15px;
-        }
-
-        .intro-text p {
-            font-size: 1.1em;
-            color: #4a5568;
-            line-height: 1.8;
-        }
-
-        .package-card .package-description {
-            color: #4a5568;
-            margin-bottom: 25px;
-            line-height: 1.8;
-        }
-
-        .package-card.premium {
-            border-color: #4299e1;
-            border-width: 3px;
-        }
-
-        .package-card .sub-item {
-            font-size: 0.9em;
+        .package-info .economics-note {
+            font-size: 0.93em;
             color: #718096;
-            display: block;
-            margin-left: 25px;
-            margin-top: 5px;
-        }
-
-        .package-card .economics-note {
-            font-size: 0.95em;
-            color: #718096;
-            
         }
 
         .belief-section {
-            max-width: 800px;
-            margin: 60px auto 0;
+            max-width: 700px;
+            margin: 50px auto 0;
             text-align: center;
-            padding: 40px;
+            padding: 36px;
             background: #f7fafc;
-            border-radius: 8px;
+            border-radius: 12px;
         }
 
         .belief-section h3 {
-            font-size: 1.6em;
-            color: #2d3748;
-            margin-bottom: 20px;
+            font-size: 1.4em;
+            color: #1a202c;
+            margin-bottom: 16px;
+            font-weight: 700;
         }
 
         .belief-section p {
-            font-size: 1.1em;
+            font-size: 1.05em;
             color: #4a5568;
-            line-height: 1.8;
-            margin-bottom: 10px;
+            line-height: 1.7;
         }
 
         /* Buyers Section */
@@ -453,62 +339,60 @@
             margin: 0 auto;
         }
 
-        .buyers-section h2 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #2d3748;
-        }
-
         .buyers-intro {
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1.15em;
             color: #4a5568;
-            margin-bottom: 60px;
-            max-width: 800px;
+            margin-bottom: 50px;
+            max-width: 700px;
             margin-left: auto;
             margin-right: auto;
+            line-height: 1.7;
         }
 
         .buyers-value {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 40px;
-            margin-bottom: 60px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+            margin-bottom: 50px;
         }
 
         .buyer-point {
             background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            border: 1px solid #e2e8f0;
         }
 
         .buyer-point h3 {
-            font-size: 1.6em;
-            color: #2d3748;
-            margin-bottom: 15px;
+            font-size: 1.4em;
+            color: #1a202c;
+            margin-bottom: 14px;
+            font-weight: 700;
         }
 
         .buyer-point p {
             color: #4a5568;
-            line-height: 1.8;
-            margin-bottom: 25px;
+            line-height: 1.7;
+            margin-bottom: 24px;
         }
 
         .buyer-benefits {
             background: white;
-            padding: 40px;
-            border-radius: 8px;
-            max-width: 900px;
+            padding: 36px;
+            border-radius: 12px;
+            max-width: 800px;
             margin: 0 auto;
+            border: 1px solid #e2e8f0;
         }
 
         .buyer-benefits h3 {
-            font-size: 1.6em;
-            color: #2d3748;
+            font-size: 1.4em;
+            color: #1a202c;
             margin-bottom: 20px;
             text-align: center;
+            font-weight: 700;
         }
 
         .buyer-benefits ul {
@@ -516,584 +400,397 @@
         }
 
         .buyer-benefits ul li {
-            padding: 12px 0;
+            padding: 10px 0;
             color: #4a5568;
             position: relative;
-            padding-left: 30px;
+            padding-left: 28px;
             line-height: 1.6;
         }
 
         .buyer-benefits ul li:before {
-            content: "✓";
+            content: "\2713";
             position: absolute;
             left: 0;
-            color: #48bb78;
+            color: #38a169;
             font-weight: bold;
-            font-size: 1.2em;
         }
 
         /* Stats Section */
         .stats {
             padding: 100px 40px;
-            background: #2d3748;
+            background: #1a202c;
             position: relative;
-        }
-
-        .stats::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="1.5" fill="rgba(255,255,255,0.05)"/></svg>');
-            opacity: 0.5;
         }
 
         .stats h2 {
             text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
+            font-size: 2.4em;
+            margin-bottom: 16px;
             color: white;
             position: relative;
             z-index: 1;
+            font-weight: 800;
+            letter-spacing: -0.03em;
         }
 
         .stats-intro {
             text-align: center;
-            font-size: 1.2em;
-            color: rgba(255,255,255,0.9);
-            max-width: 700px;
-            margin: 0 auto 60px;
+            font-size: 1.15em;
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin: 0 auto 50px;
             position: relative;
             z-index: 1;
         }
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
             position: relative;
             z-index: 1;
-            max-width: 1200px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         .stat-card {
             background: white;
             text-align: center;
-            padding: 40px 30px;
+            padding: 36px 28px;
             border-radius: 12px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
         }
 
         .stat-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+            transform: translateY(-4px);
         }
 
         .stat-number {
-            font-size: 3em;
-            font-weight: 700;
-            color: #4299e1;
-            margin-bottom: 10px;
+            font-size: 2.8em;
+            font-weight: 800;
+            color: #3182ce;
+            margin-bottom: 8px;
             line-height: 1.2;
-            text-align: center;
-            display: block;
-            word-wrap: break-word;
+            letter-spacing: -0.03em;
         }
 
         .stat-number.text-stat {
-            font-size: 2.5em;
+            font-size: 2.2em;
         }
 
         .stat-card h3 {
-            font-size: 1.3em;
-            margin-bottom: 15px;
-            color: #2d3748;
+            font-size: 1.15em;
+            margin-bottom: 10px;
+            color: #1a202c;
+            font-weight: 700;
         }
 
         .stat-card p {
             color: #4a5568;
-            line-height: 1.8;
+            line-height: 1.6;
+            font-size: 0.95em;
         }
 
         /* Contact Section */
         .contact {
             padding: 100px 40px;
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
-        }
-
-        .contact h2 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 40px;
-            color: #2d3748;
         }
 
         .contact-form {
             display: flex;
             flex-direction: column;
-            gap: 20px;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .form-group label {
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #2d3748;
-        }
-
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            padding: 12px;
-            border: 1px solid #cbd5e0;
-            border-radius: 4px;
-            font-size: 1em;
-            font-family: inherit;
-        }
-
-        .form-group textarea {
-            min-height: 120px;
-            resize: vertical;
-        }
-
-        .submit-btn {
-            background: #2d3748;
-            color: white;
-            padding: 15px;
-            border: none;
-            border-radius: 4px;
-            font-size: 1.1em;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-
-        .submit-btn:hover {
-            background: #1a202c;
+            gap: 18px;
         }
 
         .contact-info {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 60px;
-            padding: 40px;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 50px;
+            padding: 32px;
             background: #f7fafc;
-            border-radius: 8px;
+            border-radius: 12px;
         }
 
         .contact-item {
             text-align: center;
-            padding: 20px;
+            padding: 16px;
         }
 
-        .contact-item-title {
+        .contact-item h3 {
             font-weight: 700;
-            color: #2d3748;
-            margin-bottom: 10px;
-            font-size: 1.2em;
+            color: #1a202c;
+            margin-bottom: 8px;
+            font-size: 0.85em;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
         }
 
         .contact-item a {
-            color: #4299e1;
+            color: #3182ce;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.2em;
-            transition: color 0.3s;
+            font-size: 1.15em;
+            transition: color 0.2s;
         }
 
         .contact-item a:hover {
             color: #2c5282;
         }
 
-        /* Footer */
-        footer {
-            background: #2d3748;
-            color: white;
-            padding: 60px 40px 30px;
-        }
-
-        .footer-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .footer-section h3 {
-            margin-bottom: 20px;
-            font-size: 1.2em;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin-bottom: 10px;
-        }
-
-        .footer-section a {
-            color: rgba(255,255,255,0.8);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-section a:hover {
-            color: white;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255,255,255,0.1);
-            color: rgba(255,255,255,0.7);
-        }
-
-        /* Mobile Menu Toggle */
-        .mobile-menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            color: #2d3748;
-        }
-
-        /* Responsive Design */
+        /* Responsive */
         @media (max-width: 768px) {
-            nav {
-                padding: 15px 20px;
-            }
-
-            .mobile-menu-toggle {
-                display: block;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: white;
-                flex-direction: column;
-                padding: 20px;
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .hero {
-                min-height: 500px;
+            .hero-home {
+                min-height: 480px;
                 padding: 80px 20px;
-            }
-
-            .hero h1 {
-                font-size: 2em;
-            }
-
-            .hero p {
-                font-size: 1.1em;
             }
 
             .about {
                 grid-template-columns: 1fr;
+                padding: 60px 20px;
             }
 
             .about-image {
                 order: -1;
             }
 
-            .packages-grid {
-                grid-template-columns: 1fr;
-            }
-
+            .packages-grid,
             .buyers-value {
                 grid-template-columns: 1fr;
             }
 
             .contact-info {
-                flex-direction: column;
-                gap: 30px;
-            }
-
-            .footer-content {
                 grid-template-columns: 1fr;
             }
         }
     </style>
-    
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Poolside Business Brokers",
-      "description": "Expert pool route brokers providing tailored valuations, personalized buyer outreach, and full transition support for pool service businesses.",
-      "url": "https://poolsidebrokers.com",
-      "telephone": "+1-512-693-7086",
-      "email": "info&#64;poolsidebrokers.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "US"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "United States"
-      },
-      "priceRange": "$$",
-      "serviceType": "Pool Route Brokerage"
-    }
-    </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8V7FH38J0R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8V7FH38J0R');
-</script>
 <body>
     <!-- Header Placeholder -->
     <div id="header-placeholder"></div>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <video autoplay muted loop playsinline class="hero-video" loading="lazy" preload="metadata">
-            <source src="Poolside-Business-Brokers-Waterfall.mp4" type="video/mp4">
-        </video>
-        <div class="hero-content">
-            <h1>Expert Pool Route Brokerage Nationwide</h1>
-            <p>Whether you're selling your route or acquiring quality accounts, we bring operator expertise and hands-on support to every transaction</p>
-            <div class="hero-ctas">
-                <a href="#sellers" class="cta-btn">Sell Your Route</a>
-                <a href="#buyers" class="cta-btn cta-btn-secondary">Buy a Route</a>
+    <main id="main-content">
+        <section class="hero hero-home" id="home">
+            <video autoplay muted loop playsinline class="hero-video" preload="metadata" poster="Poolside-Business-Brokers-Team-Photo.jpg">
+                <source src="Poolside-Business-Brokers-Waterfall.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Expert Pool Route Brokerage Nationwide</h1>
+                <p>Whether you're selling your route or acquiring quality accounts, we bring operator expertise and hands-on support to every transaction</p>
+                <div class="hero-ctas">
+                    <a href="/sellers" class="cta-btn">Sell Your Route</a>
+                    <a href="/buyers" class="cta-btn cta-btn-secondary">Buy a Route</a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2>Brokers Who Know the Business Firsthand</h2>
-            <p>We've been on both sides of the table — buying and selling pool routes ourselves — so we know exactly what matters to both buyers and sellers. As your pool route experts, Poolside Business Brokers brings firsthand experience to every deal. We understand the details that can make or break a transaction, from what buyers are really looking for to the concerns that sellers need addressed. Our job is to make the process smooth, fair, and transparent so that you can move forward with confidence. We're active in the pool service community and support organizations like <a href="https://www.ipssa.com/" target="_blank" rel="noopener noreferrer">IPSSA</a> that help pool professionals succeed.</p>
-            <a href="about-us.html" class="cta-btn">About Us</a>
-        </div>
-        <div class="about-image">
-            <img src="https://static.wixstatic.com/media/8d06ac_bb3fd0b3030147828cacfca0fed2a6ca~mv2.jpg/v1/crop/x_18,y_0,w_988,h_990/fill/w_800,h_800,al_c,q_85/Beautiful%20pool%20views.jpg" alt="Beautiful pool views">
-        </div>
-    </section>
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2>Brokers Who Know the Business Firsthand</h2>
+                <p>We've been on both sides of the table &mdash; buying and selling pool routes ourselves &mdash; so we know exactly what matters to both buyers and sellers. Poolside Business Brokers brings firsthand experience to every deal. We understand the details that can make or break a transaction, from what buyers are really looking for to the concerns that sellers need addressed. We're active in the pool service community and support organizations like <a href="https://www.ipssa.com/" target="_blank" rel="noopener noreferrer">IPSSA</a> that help pool professionals succeed.</p>
+                <a href="/about-us" class="cta-btn">About Us</a>
+            </div>
+            <div class="about-image">
+                <img src="https://static.wixstatic.com/media/8d06ac_bb3fd0b3030147828cacfca0fed2a6ca~mv2.jpg/v1/crop/x_18,y_0,w_988,h_990/fill/w_800,h_800,al_c,q_85/Beautiful%20pool%20views.jpg" alt="Beautiful pool with clear water surrounded by landscaping" width="800" height="800">
+            </div>
+        </section>
 
-    <!-- Process Section -->
-    <section class="process">
-        <h2>How the Process Works</h2>
-        <p class="process-intro">Selling your pool route doesn't have to be complicated. Our streamlined process is designed to guide you every step of the way — from the first conversation to a successful sale. We connect sellers with qualified buyers, manage the details, and make sure the transition is smooth and stress-free.</p>
-        
-        <div class="process-grid">
-            <div class="process-step">
-                <h3>Introduction Call</h3>
-                <p>We start with a quick call to understand your route—account count, revenue, service mix, and geography. With just a simple export, we provide a ballpark valuation and outline the best path forward. This ensures you know what to expect before committing to the process.</p>
+        <!-- Process Section -->
+        <section class="process">
+            <h2 class="section-title">How the Process Works</h2>
+            <p class="section-intro">Selling your pool route doesn't have to be complicated. Our streamlined process guides you from first conversation to successful sale.</p>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <h3>Introduction Call</h3>
+                    <p>We start with a quick call to understand your route &mdash; account count, revenue, service mix, and geography. We provide a ballpark valuation and outline the best path forward.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Valuation &amp; Listing Prep</h3>
+                    <p>We price your route using current market comps and adjust for density, delinquency, and repair potential. Our approach aligns with <a href="https://www.phta.org/" target="_blank" rel="noopener noreferrer">PHTA industry standards</a> for accurate valuations.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Buyer Sourcing &amp; Offers</h3>
+                    <p>We tap into our active buyer network and run targeted outreach to vetted operators. Every buyer is pre-screened for funding and experience, with most sellers seeing offers within 1&ndash;2 weeks.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Close &amp; Transition</h3>
+                    <p>We guide you through contracts, escrow, and payment. We then support the transition with customer notifications, billing handover, and training for both parties.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- For Sellers Section -->
+        <section class="packages" id="sellers">
+            <h2 class="section-title">For Sellers: Two Ways to Work With Us</h2>
+
+            <div class="intro-text">
+                <p>We determine the best fit for your route after a discovery call, ensuring you get the most value from your sale.</p>
             </div>
 
-            <div class="process-step">
-                <h3>Valuation & Listing Prep</h3>
-                <p>We price your route using current market comps and adjust for density, delinquency, and repair potential. Our approach aligns with <a href="https://www.phta.org/" target="_blank" rel="noopener noreferrer">PHTA industry standards</a> to ensure accurate valuations. From there, we create professional marketing materials tailored to your route—from concise route briefs to detailed buyer packets with KPIs, maps, and transition planning.</p>
-            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <h3>Sell-Side Brokerage</h3>
+                    <p class="tagline">Hands-on partnership, fair pricing</p>
+                    <p class="package-description">We're not a listing service &mdash; we're your partner in preparing and selling your route. From making your route more attractive to buyers through targeted improvements, to coordinating with leading software providers for seamless transitions.</p>
+                    <ul>
+                        <li>Consultative guidance to optimize your route for sale</li>
+                        <li>Listed to our pre-qualified buyer network</li>
+                        <li>Clear, market-based valuation and pricing strategy</li>
+                        <li>Partnership with leading software providers for smooth transitions</li>
+                        <li>Proven contracts, third-party escrow, full coordination</li>
+                    </ul>
+                    <div class="package-info">
+                        <p><strong>Who it's for:</strong></p>
+                        <p>Any size route. Sellers who want hands-on support and fair pricing.</p>
+                        <p><strong>Fee structure:</strong></p>
+                        <p><strong>1.0&times; monthly recurring revenue</strong></p>
+                        <p class="economics-note">That's half what most brokers charge (2.0&times;) for similar services</p>
+                    </div>
+                </div>
 
-            <div class="process-step">
-                <h3>Buyer Sourcing & Offers</h3>
-                <p>We tap into our active buyer network and run targeted outreach to vetted operators and consolidators. Every buyer is pre-screened for funding and experience, and most sellers see real offers within 1–2 weeks. We manage negotiations to maximize price and secure seller-friendly terms.</p>
-            </div>
-
-            <div class="process-step">
-                <h3>Close & Transition</h3>
-                <p>Once an offer is accepted, we guide you through contracts, escrow, and payment, ensuring a secure close. We then support the transition with customer notifications, billing handover, and training/ride-alongs, giving both seller and buyer confidence that the accounts will transfer smoothly.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- For Sellers Section -->
-    <section class="packages" id="sellers">
-        <h2>For Sellers: Two Ways to Work With Us</h2>
-        
-        <div class="intro-text">
-            <p>We determine the best fit for your route after a discovery call, ensuring you get the most value from your sale.</p>
-        </div>
-
-        <div class="packages-grid">
-            <div class="package-card">
-                <h3>Sell-Side Brokerage</h3>
-                <p class="tagline">Hands-on partnership, fair pricing</p>
-                <p class="package-description">We're not a listing service — we're your partner in preparing and selling your route. From making your route more attractive to buyers through targeted improvements, to coordinating with leading software providers and suppliers for seamless transitions.</p>
-                <ul>
-                    <li>Consultative guidance to optimize your route for sale</li>
-                    <li>Listed to our pre-qualified buyer network</li>
-                    <li>Clear, market-based valuation and pricing strategy</li>
-                    <li>Partnership with leading software providers for smooth transitions</li>
-                    <li>Proven contracts, third-party escrow, full coordination</li>
-                </ul>
-                <div class="package-info">
-                    <p><strong>Who it's for:</strong></p>
-                    <p>Any size route. Sellers who want hands-on support and fair pricing.</p>
-                    <p><strong>Fee structure:</strong></p>
-                    <p><strong>1.0× monthly recurring revenue</strong></p>
-                    <p class="economics-note">That's half what most brokers charge (2.0×) for similar services</p>
+                <div class="package-card premium">
+                    <h3>Buy-Side Advisory</h3>
+                    <p class="tagline">Maximizing value through operational optimization</p>
+                    <p class="package-description">We represent qualified buyers seeking high-quality routes. If your route meets our criteria (100+ accounts), we optimize your operations to maximize EBITDA and match you directly with our pre-qualified buyer network.</p>
+                    <ul>
+                        <li>Pro forma EBITDA modeling using proprietary sector methodology</li>
+                        <li>Operational optimization to maximize valuation</li>
+                        <li>Takeover-ready preparation for seamless integration</li>
+                        <li>Professional route dossier (retention, density, revenue quality)</li>
+                        <li>Direct matching to qualified buyers (not publicly listed)</li>
+                        <li>Tailored EBITDA-based valuation</li>
+                    </ul>
+                    <div class="package-info">
+                        <p><strong>Who it's for:</strong></p>
+                        <p>Routes with 100+ accounts. May package smaller routes together for optimal buyer fit.</p>
+                        <p><strong>Fee structure:</strong></p>
+                        <p>EBITDA-based valuation, buyer pays our fee</p>
+                        <p class="economics-note">You keep 100% of sale proceeds &mdash; buyer pays our fee</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="package-card premium">
-                <h3>Buy-Side Advisory</h3>
-                <p class="tagline">Maximizing value through operational optimization</p>
-                <p class="package-description">We represent qualified buyers seeking high-quality routes. If your route meets our criteria (100+ accounts), we optimize your operations to maximize EBITDA, create a professional route dossier, and match you directly with our pre-qualified buyer network — without public listing.</p>
-                <ul>
-                    <li>Pro forma EBITDA modeling using proprietary sector methodology</li>
-                    <li>Operational optimization to maximize valuation</li>
-                    <li>Takeover-ready preparation for seamless integration</li>
-                    <li>Professional route dossier (retention, density, revenue quality)</li>
-                    <li>Direct matching to qualified buyers (not publicly listed)</li>
-                    <li>Tailored EBITDA-based valuation</li>
-                </ul>
-                <div class="package-info">
-                    <p><strong>Who it's for:</strong></p>
-                    <p>Routes with 100+ accounts. May package smaller routes together for optimal buyer fit.</p>
-                    <p><strong>Fee structure:</strong></p>
-                    <p>EBITDA-based valuation, buyer pays our fee</p>
-                    <p class="economics-note">You keep 100% of sale proceeds — buyer pays our fee</p>
+            <div class="belief-section">
+                <h3>Our approach</h3>
+                <p>We're pool service operators first, brokers second. After a discovery call, we'll recommend which path maximizes your outcome &mdash; whether that's our sell-side partnership or buy-side advisory.</p>
+            </div>
+        </section>
+
+        <!-- For Buyers Section -->
+        <section class="buyers-section" id="buyers">
+            <div class="buyers-content">
+                <h2 class="section-title">For Buyers: Quality Routes, Operator Expertise</h2>
+                <p class="buyers-intro">Whether you're browsing our listed routes or seeking a tailored acquisition, we bring the operator perspective buyers need.</p>
+
+                <div class="buyers-value">
+                    <div class="buyer-point">
+                        <h3>Browse Available Routes</h3>
+                        <p>View our current inventory of routes for sale across the country. Each listing includes detailed financials, service area maps, and retention data.</p>
+                        <a href="/routes-for-sale" class="cta-btn">View Routes</a>
+                    </div>
+                    <div class="buyer-point">
+                        <h3>Tailored Acquisition Support</h3>
+                        <p>Looking for something specific? We actively source high-quality routes (100+ accounts) that match buyer preferences, handle operational optimization, and ensure takeover-ready transitions.</p>
+                        <a href="/buyers" class="cta-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="buyer-benefits">
+                    <h3>Why buyers choose us</h3>
+                    <ul>
+                        <li>Firsthand pool service operations experience &mdash; we understand what makes routes valuable</li>
+                        <li>Thorough due diligence and transparent route documentation</li>
+                        <li>Partnership with leading software providers for smooth integrations</li>
+                        <li>Available for both listed routes and off-market opportunities</li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="belief-section">
-            <h3>Our approach</h3>
-            <p>We're pool service operators first, brokers second. After a discovery call, we'll recommend which path maximizes your outcome — whether that's our sell-side partnership or buy-side advisory.</p>
-        </div>
-    </section>
-
-    <!-- For Buyers Section -->
-    <section class="buyers-section" id="buyers">
-        <div class="buyers-content">
-            <h2>For Buyers: Quality Routes, Operator Expertise</h2>
-            <p class="buyers-intro">Whether you're browsing our listed routes or seeking a tailored acquisition, we bring the operator perspective buyers need.</p>
-            
-            <div class="buyers-value">
-                <div class="buyer-point">
-                    <h3>Browse Available Routes</h3>
-                    <p>View our current inventory of routes for sale across the country. Each listing includes detailed financials, service area maps, and retention data.</p>
-                    <a href="routes-for-sale.html" class="cta-btn">View Routes</a>
+        <!-- Stats Section -->
+        <section class="stats">
+            <h2>What Sets Us Apart</h2>
+            <p class="stats-intro">Firsthand experience and operator expertise in every transaction</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">1,500+</div>
+                    <h3>Accounts Transacted</h3>
+                    <p>Pool service accounts bought and sold through firsthand operating experience</p>
                 </div>
-                
-                <div class="buyer-point">
-                    <h3>Tailored Acquisition Support</h3>
-                    <p>Looking for something specific? We actively source high-quality routes (100+ accounts) that match buyer preferences, handle operational optimization, and ensure takeover-ready transitions.</p>
-                    <a href="buyers.html" class="cta-btn">Learn More</a>
+                <div class="stat-card">
+                    <div class="stat-number text-stat">Nationwide</div>
+                    <h3>Market Coverage</h3>
+                    <p>Serving pool route buyers and sellers across all 50 states</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50%</div>
+                    <h3>Lower Fees</h3>
+                    <p>Sell-side brokerage at 1&times; monthly revenue vs. competitors' 2&times; standard rate</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number text-stat">Operator</div>
+                    <h3>Experience</h3>
+                    <p>Built and scaled pool service companies &mdash; we know the business from the inside</p>
                 </div>
             </div>
+        </section>
 
-            <div class="buyer-benefits">
-                <h3>Why buyers choose us</h3>
-                <ul>
-                    <li>Firsthand pool service operations experience — we understand what makes routes valuable</li>
-                    <li>Thorough due diligence and transparent route documentation</li>
-                    <li>Partnership with leading software providers for smooth integrations</li>
-                    <li>Available for both listed routes and off-market opportunities</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="section-title">Contact Us to Get Started</h2>
+            <form class="contact-form" name="homepage-contact" action="https://formsubmit.co/info@poolsidebrokers.com" method="POST">
+                <input type="hidden" name="_subject" value="New inquiry from Poolside website (homepage)">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://poolsidebrokers.com/contact">
+                <div class="form-group">
+                    <label for="firstName">First name *</label>
+                    <input type="text" id="firstName" name="first-name" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="userType">I am a... *</label>
+                    <select id="userType" name="user-type" required aria-required="true">
+                        <option value="">Select...</option>
+                        <option value="buyer">Buyer</option>
+                        <option value="seller">Seller</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
 
-    <!-- Stats Section -->
-    <section class="stats">
-        <h2>What Sets Us Apart</h2>
-        <p class="stats-intro">Firsthand experience and operator expertise in every transaction</p>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">1,500+</div>
-                <h3>Accounts Transacted</h3>
-                <p>Pool service accounts bought and sold through firsthand operating experience</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email Us</h3>
+                    <a href="mailto:info@poolsidebrokers.com">info@poolsidebrokers.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>Call or Text</h3>
+                    <a href="tel:+15126937086">(512) 693-7086</a>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number text-stat">Nationwide</div>
-                <h3>Market Coverage</h3>
-                <p>Serving pool route buyers and sellers across all 50 states</p>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">50%</div>
-                <h3>Lower Fees</h3>
-                <p>Sell-side brokerage at 1× monthly revenue vs. competitors' 2× standard rate</p>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number text-stat">Operator</div>
-                <h3>Experience</h3>
-                <p>Built and scaled pool service companies — we know the business from the inside</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2>Contact Us to Get Started</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="firstName">First name*</label>
-                <input type="text" id="firstName" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone*</label>
-                <input type="tel" id="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email*</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="userType">I am a...*</label>
-                <select id="userType" required>
-                    <option value="">Select...</option>
-                    <option value="buyer">Buyer</option>
-                    <option value="seller">Seller</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message"></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send</button>
-        </form>
-
-        <div class="contact-info">
-            <div class="contact-item">
-                <p class="contact-item-title">Email Us</p>
-                <a href="/cdn-cgi/l/email-protection#4f26212920696c797b743f2020233c262b2a2d3d20242a3d3c612c2022" data-cfasync="false">info&#64;poolsidebrokers.com</a>
-            </div>
-            <div class="contact-item">
-                <p class="contact-item-title">Call or Text</p>
-                <a href="tel:+15126937086">(512) 693-7086</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer Placeholder -->
     <div id="footer-placeholder"></div>
-
 
     <script src="common.js"></script>
 </body>
