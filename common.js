@@ -13,6 +13,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
         <li role="none"><a href="/sellers" role="menuitem">Sellers</a></li>
         <li role="none"><a href="/buyers" role="menuitem">Buyers</a></li>
         <li role="none"><a href="/routes-for-sale" role="menuitem">Routes for Sale</a></li>
+        <li role="none"><a href="/blog" role="menuitem">Blog</a></li>
         <li role="none"><a href="/contact" role="menuitem">Contact</a></li>
         <li role="none"><a href="tel:+15126937086" class="phone-btn" role="menuitem">(512) 693-7086</a></li>
     </ul>
@@ -43,6 +44,7 @@ const footerHTML = `<footer role="contentinfo">
                 <li><a href="/sellers">For Sellers</a></li>
                 <li><a href="/buyers">For Buyers</a></li>
                 <li><a href="/routes-for-sale">Routes for Sale</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
