@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sellers - Poolside Business Brokers</title>
-    <meta name="description" content="Sell your pool route with hands-on operator expertise. Two service paths: sell-side brokerage at 1x monthly revenue, or buy-side advisory for larger routes (100+ accounts). Nationwide service.">
-    <meta name="keywords" content="sell pool route, pool route valuation, sell pool business, pool service business valuation, how to sell pool route, pool route broker, pool route sale">
+    <title>Sell Your Pool Route | 12% Commission | Poolside Business Brokers</title>
+    <meta name="description" content="Sell your pool route with Poolside Business Brokers. Industry-low 12% commission vs. 16.7% standard. 25+ vetted buyers, confidential marketing, expert valuations, and full transition support. Free valuation. Call (512) 693-7086.">
+    <meta name="keywords" content="sell pool route, pool route valuation, sell pool business, pool service business valuation, how to sell pool route, pool route broker, pool route sale, sell pool cleaning business, pool route worth, pool route commission, pool business exit strategy">
     <link rel="canonical" href="https://poolsidebrokers.com/sellers">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://poolsidebrokers.com/sellers">
-    <meta property="og:title" content="Sell Your Pool Route | Poolside Business Brokers">
-    <meta property="og:description" content="Get maximum value for your pool route with accurate valuations and targeted buyer outreach.">
+    <meta property="og:title" content="Sell Your Pool Route | 12% Commission | Poolside Business Brokers">
+    <meta property="og:description" content="Industry-low 12% commission. 25+ vetted buyers. Expert valuations and full transition support for pool route sellers.">
     <meta property="og:image" content="https://poolsidebrokers.com/PBB%20Horizontal%20Logo%20Image.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sell Your Pool Route | Poolside Business Brokers">
-    <meta name="twitter:description" content="Get maximum value for your pool route with accurate valuations and targeted buyer outreach.">
+    <meta name="twitter:description" content="Industry-low 12% commission. 25+ vetted buyers. Expert valuations and full transition support.">
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8V7FH38J0R"></script>
@@ -34,147 +34,317 @@
     <style>
         .hero p { margin-bottom: 32px; }
 
-        .why-sell { padding: 80px 40px; max-width: 1200px; margin: 0 auto; }
+        /* Why Sell */
+        .why-sell {
+            padding: 120px 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
 
         .reasons-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 28px;
+            gap: 32px;
             max-width: 1000px;
             margin: 0 auto;
         }
 
         .reason-card {
-            background: white;
-            padding: 32px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
-            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 36px 32px;
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            transition: border-color 0.3s;
         }
 
-        .reason-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-        .reason-card h3 { font-size: 1.3em; margin-bottom: 12px; color: #1a202c; font-weight: 700; }
-        .reason-card p { color: #4a5568; line-height: 1.75; }
+        .reason-card:hover { border-color: var(--gold); }
+        .reason-card h3 { font-size: 1.15em; margin-bottom: 12px; color: var(--white); font-weight: 600; }
+        .reason-card p { color: var(--text-muted); line-height: 1.75; font-size: 0.95em; }
 
-        .our-approach { background: #f7fafc; padding: 80px 40px; }
+        /* Our Approach */
+        .our-approach {
+            background: var(--dark);
+            padding: 120px 48px;
+            border-top: 1px solid var(--dark-border);
+            border-bottom: 1px solid var(--dark-border);
+        }
 
-        .approach-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-            max-width: 1200px;
+        .approach-content {
+            max-width: 1100px;
             margin: 0 auto;
-        }
-
-        .approach-item {
-            background: white;
-            padding: 28px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
-        }
-
-        .approach-item h3 { font-size: 1.15em; margin-bottom: 12px; color: #1a202c; font-weight: 700; }
-        .approach-item p { color: #4a5568; line-height: 1.75; }
-
-        .process { padding: 80px 40px; max-width: 1200px; margin: 0 auto; }
-
-        .process-steps { max-width: 800px; margin: 0 auto; }
-
-        .process-step {
-            background: white;
-            padding: 28px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
-            display: flex;
-            gap: 24px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
             align-items: start;
         }
 
+        .approach-left .section-label {
+            font-size: 0.75em;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .approach-left h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.6em;
+            color: var(--white);
+            margin-bottom: 28px;
+            font-weight: 700;
+            line-height: 1.15;
+        }
+
+        .approach-left p {
+            color: var(--text-body);
+            line-height: 1.85;
+            font-size: 1.05em;
+            margin-bottom: 20px;
+        }
+
+        .approach-features {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .approach-feature {
+            padding: 28px;
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            background: var(--charcoal);
+            transition: border-color 0.3s;
+        }
+
+        .approach-feature:hover { border-color: var(--gold); }
+
+        .approach-feature h3 {
+            font-size: 1.05em;
+            color: var(--white);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .approach-feature p {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 0.93em;
+        }
+
+        /* Commission */
+        .commission {
+            padding: 120px 48px;
+        }
+
+        .commission-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .commission-card {
+            padding: 48px 36px;
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            text-align: center;
+        }
+
+        .commission-card.ours {
+            border-color: var(--gold);
+        }
+
+        .commission-card .card-label {
+            font-size: 0.75em;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .commission-card.ours .card-label {
+            color: var(--gold);
+        }
+
+        .commission-card .card-rate {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 4em;
+            color: var(--white);
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .commission-card .card-subtitle {
+            font-size: 0.95em;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .commission-card .card-detail {
+            font-size: 0.93em;
+            color: var(--text-muted);
+            line-height: 1.7;
+            text-align: left;
+        }
+
+        .commission-note {
+            max-width: 900px;
+            margin: 48px auto 0;
+            text-align: center;
+        }
+
+        .commission-note p {
+            color: var(--text-muted);
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+
+        /* Process */
+        .process {
+            background: var(--dark);
+            padding: 120px 48px;
+            border-top: 1px solid var(--dark-border);
+            border-bottom: 1px solid var(--dark-border);
+        }
+
+        .process-steps { max-width: 700px; margin: 0 auto; }
+
+        .process-step {
+            padding: 28px 32px;
+            margin-bottom: 16px;
+            border: 1px solid var(--dark-border);
+            border-radius: var(--radius);
+            display: flex;
+            gap: 24px;
+            align-items: start;
+            background: var(--charcoal);
+            transition: border-color 0.3s;
+        }
+
+        .process-step:hover { border-color: var(--gold); }
+
         .step-number {
-            min-width: 52px;
-            height: 52px;
-            background: #38a169;
-            color: white;
-            border-radius: 50%;
+            min-width: 48px;
+            height: 48px;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            border-radius: var(--radius);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.3em;
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.2em;
             font-weight: 700;
         }
 
-        .step-content h3 { font-size: 1.25em; margin-bottom: 8px; color: #1a202c; font-weight: 700; }
-        .step-content p { color: #4a5568; line-height: 1.75; }
+        .step-content h3 { font-size: 1.1em; margin-bottom: 8px; color: var(--white); font-weight: 600; }
+        .step-content p { color: var(--text-muted); line-height: 1.75; font-size: 0.93em; }
 
-        .valuation { background: #f7fafc; padding: 80px 40px; }
+        /* Valuation */
+        .valuation {
+            padding: 120px 48px;
+        }
 
         .valuation-content {
             max-width: 800px;
             margin: 0 auto;
-            background: white;
-            padding: 36px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
         }
 
-        .valuation-content > p { margin-bottom: 28px; font-size: 1.05em; color: #1a202c; }
+        .valuation-intro {
+            text-align: center;
+            font-size: 1.05em;
+            color: var(--text-body);
+            line-height: 1.85;
+            margin-bottom: 48px;
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-        .valuation-factors { display: grid; gap: 16px; margin-top: 24px; }
+        .valuation-factors {
+            display: grid;
+            gap: 16px;
+        }
 
         .factor-item {
-            padding: 20px;
-            border-left: 4px solid #38a169;
-            background: #f7fafc;
-            border-radius: 8px;
+            padding: 24px;
+            border-left: 2px solid var(--gold);
+            background: var(--dark);
+            border-radius: var(--radius);
         }
 
-        .factor-item h3 { font-size: 1.1em; margin-bottom: 8px; color: #1a202c; font-weight: 700; }
-        .factor-item p { color: #4a5568; line-height: 1.7; }
+        .factor-item h3 { font-size: 1em; margin-bottom: 8px; color: var(--white); font-weight: 600; }
+        .factor-item p { color: var(--text-muted); line-height: 1.7; font-size: 0.93em; }
 
-        .faq { padding: 80px 40px; }
-        .faq-container { max-width: 800px; margin: 0 auto; }
+        /* FAQ */
+        .faq {
+            background: var(--dark);
+            padding: 120px 48px;
+            border-top: 1px solid var(--dark-border);
+            border-bottom: 1px solid var(--dark-border);
+        }
+
+        .faq-container { max-width: 700px; margin: 0 auto; }
 
         .faq-item {
-            background: white;
-            padding: 24px;
-            margin-bottom: 16px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
+            padding: 28px 0;
+            border-bottom: 1px solid var(--dark-border);
         }
 
-        .faq-item h3 { font-size: 1.15em; margin-bottom: 10px; color: #1a202c; font-weight: 700; }
-        .faq-item p { color: #4a5568; line-height: 1.75; }
+        .faq-item:first-child { padding-top: 0; }
+        .faq-item:last-child { border-bottom: none; }
 
+        .faq-item h3 { font-size: 1.08em; margin-bottom: 12px; color: var(--white); font-weight: 600; }
+        .faq-item p { color: var(--text-muted); line-height: 1.75; font-size: 0.95em; }
+
+        /* CTA */
         .cta-section {
-            background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
-            padding: 80px 40px;
+            padding: 100px 48px;
             text-align: center;
-            color: white;
+            background: var(--charcoal);
         }
 
-        .cta-section h2 { font-size: 2.4em; margin-bottom: 16px; font-weight: 800; letter-spacing: -0.03em; }
-        .cta-section p { font-size: 1.15em; margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.92; }
-
-        .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-
-        .cta-primary {
-            background: white; color: #2d3748; padding: 14px 36px; border-radius: 6px;
-            text-decoration: none; font-weight: 600; font-size: 1.05em; transition: all 0.2s;
+        .cta-section h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.6em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: var(--white);
         }
-        .cta-primary:hover { background: #f7fafc; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
 
-        .cta-secondary-btn {
-            background: transparent; color: white; padding: 14px 36px; border: 2px solid rgba(255,255,255,0.8);
-            border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1.05em; transition: all 0.2s;
+        .cta-section p {
+            font-size: 1.08em;
+            margin-bottom: 40px;
+            max-width: 560px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--text-muted);
+            line-height: 1.8;
         }
-        .cta-secondary-btn:hover { background: white; color: #3182ce; }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
         @media (max-width: 768px) {
+            .why-sell { padding: 80px 20px; }
             .reasons-grid { grid-template-columns: 1fr; }
+            .our-approach { padding: 80px 20px; }
+            .approach-content { grid-template-columns: 1fr; gap: 48px; }
+            .commission { padding: 80px 20px; }
+            .commission-inner { grid-template-columns: 1fr; }
+            .process { padding: 80px 20px; }
             .process-step { flex-direction: column; }
+            .valuation { padding: 80px 20px; }
+            .faq { padding: 80px 20px; }
+            .cta-section { padding: 80px 20px; }
             .cta-buttons { flex-direction: column; align-items: center; }
-            .cta-primary, .cta-secondary-btn { width: 100%; max-width: 280px; text-align: center; }
         }
     </style>
 </head>
@@ -183,101 +353,128 @@
 
     <main id="main-content">
         <section class="hero">
-            <h1>Sell Your Pool Route with Operator Expertise</h1>
-            <p>We've transacted 1,500+ pool service accounts and bring firsthand operating experience to every sale</p>
+            <h1>Sell Your Pool Route for Maximum Value</h1>
+            <p>Industry-low 12% commission. 25+ vetted buyers. Expert valuations from pool industry operators who understand what your route is worth.</p>
             <a href="/contact" class="cta-btn">Get Your Free Valuation</a>
         </section>
 
         <section class="why-sell">
-            <h2 class="section-title">Why Sell Your Route?</h2>
-            <p class="section-intro">Whatever your situation, we're here to help you maximize your return and ensure a smooth transition.</p>
+            <h2 class="section-title">Why Sell Your Pool Route?</h2>
+            <div class="gold-line"></div>
+            <p class="section-intro">Whatever your situation, your pool route is a valuable asset. We help you convert that value into the best possible outcome.</p>
             <div class="reasons-grid">
                 <div class="reason-card">
-                    <h3>Retirement</h3>
-                    <p>After years of building your business, it's time to cash out. Your route is a valuable asset &mdash; let us help you convert it into the retirement fund you deserve.</p>
+                    <h3>Retirement or Life Change</h3>
+                    <p>After years of building your pool service business, it's time to capitalize on the value you've created. Your route represents real, tangible value &mdash; and with the right broker, you can maximize your exit.</p>
                 </div>
                 <div class="reason-card">
                     <h3>Business Consolidation</h3>
-                    <p>Streamline your operations by selling off routes that don't fit your strategic focus. We can help divest the right accounts.</p>
+                    <p>Streamline your operations by divesting routes that don't fit your strategic focus. Sell off geographically distant accounts or underperforming segments to strengthen your core business.</p>
                 </div>
                 <div class="reason-card">
-                    <h3>Life Changes</h3>
-                    <p>Relocating, health issues, or career changes? We understand the urgency and work quickly to connect you with serious buyers.</p>
+                    <h3>Capitalize on Market Demand</h3>
+                    <p>The pool service industry is experiencing strong buyer demand. Well-maintained routes with good retention and density metrics are commanding premium valuations in today's market.</p>
                 </div>
                 <div class="reason-card">
-                    <h3>Capitalize on Market Value</h3>
-                    <p>The pool service industry is strong, and buyer demand is high. Now may be the perfect time to sell at peak market valuations.</p>
+                    <h3>Career Transition</h3>
+                    <p>Relocating, pursuing new opportunities, or addressing health concerns? We understand timing matters and work efficiently to connect you with serious, qualified buyers.</p>
                 </div>
             </div>
         </section>
 
         <section class="our-approach">
-            <h2 class="section-title">What Sets Us Apart</h2>
-            <p class="section-intro">We offer two service paths to maximize your outcome. After a discovery call, we'll recommend the best fit for your route.</p>
-            <div class="approach-grid">
-                <div class="approach-item">
-                    <h3>Operator Experience</h3>
-                    <p>We've built and scaled pool service companies ourselves. This firsthand experience helps us price your route accurately.</p>
+            <div class="approach-content">
+                <div class="approach-left">
+                    <p class="section-label">Sell-Side Advisory</p>
+                    <h2>Hands-On Brokerage, Not a Passive Listing Service</h2>
+                    <p>We don't just list your route and wait. We actively prepare, market, and sell your pool service business using our firsthand industry experience and curated buyer network.</p>
+                    <p>From optimizing your route presentation to managing buyer negotiations to coordinating the full transition, we handle every aspect of the sale so you can focus on running your business until closing day.</p>
                 </div>
-                <div class="approach-item">
-                    <h3>Confidential Marketing</h3>
-                    <p>We protect your business relationships by marketing your route discreetly. Your customers won't know until you're ready.</p>
+                <div class="approach-features">
+                    <div class="approach-feature">
+                        <h3>Operator-Level Valuations</h3>
+                        <p>We price your route based on real market data, account quality, density, retention, and service mix &mdash; not generic formulas.</p>
+                    </div>
+                    <div class="approach-feature">
+                        <h3>Curated Buyer Network</h3>
+                        <p>Your route is presented to 25+ pre-qualified, high-intent buyers. Every buyer is vetted for funding and operational readiness.</p>
+                    </div>
+                    <div class="approach-feature">
+                        <h3>Confidential Marketing</h3>
+                        <p>Customers, employees, and competitors won't know your route is for sale until you're ready. We market only to vetted buyers.</p>
+                    </div>
+                    <div class="approach-feature">
+                        <h3>Full Transaction Management</h3>
+                        <p>Contracts, negotiations, escrow coordination, customer notifications, billing handover, and training &mdash; we handle it all.</p>
+                    </div>
+                    <div class="approach-feature">
+                        <h3>Transition Support</h3>
+                        <p>We support the post-closing transition to maximize account retention and ensure a smooth handoff between seller and buyer.</p>
+                    </div>
                 </div>
-                <div class="approach-item">
-                    <h3>Expert Negotiation</h3>
-                    <p>We handle all negotiations on your behalf, ensuring you get fair terms and protecting your interests.</p>
+            </div>
+        </section>
+
+        <section class="commission">
+            <h2 class="section-title">Transparent, Industry-Low Pricing</h2>
+            <div class="gold-line"></div>
+            <div class="commission-inner">
+                <div class="commission-card ours">
+                    <div class="card-label">Poolside Business Brokers</div>
+                    <div class="card-rate">12%</div>
+                    <div class="card-subtitle">Of total purchase price</div>
+                    <div class="card-detail">Full sell-side advisory including valuation, listing prep, buyer sourcing from our 25+ vetted buyer network, negotiation, contract management, escrow coordination, and complete transition support. We make more when you make more.</div>
                 </div>
-                <div class="approach-item">
-                    <h3>Secure Transactions</h3>
-                    <p>All deals include third-party escrow services to protect both buyer and seller.</p>
+                <div class="commission-card">
+                    <div class="card-label">Industry Standard</div>
+                    <div class="card-rate">16.7%</div>
+                    <div class="card-subtitle">What most brokers charge</div>
+                    <div class="card-detail">Industry-standard commission rate charged by most pool route brokers. Often with less hands-on support, less operator expertise, slower timelines, and less alignment between broker and seller outcomes.</div>
                 </div>
-                <div class="approach-item">
-                    <h3>Transition Support</h3>
-                    <p>Our partnerships with leading pool service software providers ensure smooth transitions and strong retention.</p>
-                </div>
-                <div class="approach-item">
-                    <h3>Fair Pricing</h3>
-                    <p>Our sell-side brokerage charges 1&times; monthly revenue &mdash; half what most brokers charge (2&times;). For buy-side advisory, the buyer pays our fee.</p>
-                </div>
+            </div>
+            <div class="commission-note">
+                <p>Our commission structure is designed to align our incentives with yours. At 12% of the purchase price, we're financially motivated to maximize your sale price &mdash; not just close quickly at whatever price a buyer offers.</p>
             </div>
         </section>
 
         <section class="process">
             <h2 class="section-title">The Selling Process</h2>
+            <div class="gold-line"></div>
+            <p class="section-intro">From first call to closing, most sellers receive qualified offers within two weeks of listing.</p>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Initial Consultation</h3>
-                        <p>We start with a discovery call to understand your route, timeline, and goals. We'll recommend the service path that maximizes your outcome.</p>
+                        <h3>Discovery Call</h3>
+                        <p>We learn about your route &mdash; account count, monthly revenue, service area, retention, and your timeline. You'll receive a preliminary valuation range and clear next steps.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3>Route Valuation</h3>
-                        <p>Detailed valuation based on current market conditions, account quality, density, and retention.</p>
+                        <p>Detailed valuation based on current market conditions, account quality, density analysis, customer retention data, payment history, and service mix.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">3</div>
                     <div class="step-content">
-                        <h3>Marketing Your Route</h3>
-                        <p>We create a compelling listing and present it to our network of pre-qualified buyers. All marketing is done confidentially.</p>
+                        <h3>Confidential Marketing</h3>
+                        <p>We prepare a detailed listing and present it exclusively to our network of 25+ pre-qualified buyers. All marketing is confidential &mdash; no public listings without your approval.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">4</div>
                     <div class="step-content">
                         <h3>Buyer Vetting &amp; Offers</h3>
-                        <p>We screen all interested buyers, verify financial capability, and present you with qualified offers.</p>
+                        <p>We screen all interested buyers for financial capability and operational readiness, then present you with qualified offers and manage negotiations on your behalf.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">5</div>
                     <div class="step-content">
                         <h3>Closing &amp; Transition</h3>
-                        <p>We facilitate closing with secure escrow and guide the transition to ensure accounts transfer successfully.</p>
+                        <p>We facilitate closing with secure third-party escrow and coordinate the full transition: customer notifications, billing handover, training, and post-closing support.</p>
                     </div>
                 </div>
             </div>
@@ -285,29 +482,29 @@
 
         <section class="valuation">
             <h2 class="section-title">How We Value Your Route</h2>
-            <p class="section-intro">Market-based valuations tailored to your route, using current comps and our operator experience.</p>
+            <div class="gold-line"></div>
             <div class="valuation-content">
-                <p><strong>Base Valuation:</strong> Pool routes typically sell for 10-12&times; monthly service revenue. The exact multiple depends on account quality, density, and retention.</p>
+                <p class="valuation-intro">Pool routes typically sell for 10-12&times; monthly service revenue. The exact multiple depends on route-specific factors that we evaluate using our firsthand industry experience and current market data.</p>
                 <div class="valuation-factors">
                     <div class="factor-item">
-                        <h3>Account Density</h3>
-                        <p>Routes with tightly clustered accounts are worth more due to reduced drive time.</p>
+                        <h3>Account Density &amp; Geography</h3>
+                        <p>Tightly clustered accounts reduce drive time and increase efficiency. Routes with strong density in desirable markets command premium multiples.</p>
                     </div>
                     <div class="factor-item">
                         <h3>Customer Retention</h3>
-                        <p>Long-term customers who pay consistently are highly valuable. Low churn commands premium pricing.</p>
+                        <p>Long-term customers who pay consistently are the most valuable accounts. Low churn rates signal a well-managed route that buyers are willing to pay more for.</p>
                     </div>
                     <div class="factor-item">
-                        <h3>Payment History</h3>
-                        <p>Accounts with autopay and consistent payment records are more attractive to buyers.</p>
+                        <h3>Payment History &amp; Autopay</h3>
+                        <p>Accounts on autopay with consistent payment records are significantly more attractive to buyers. Higher autopay penetration drives up valuation.</p>
                     </div>
                     <div class="factor-item">
-                        <h3>Service Mix</h3>
-                        <p>Weekly service accounts are typically valued higher. Additional repair and equipment revenue increases value.</p>
+                        <h3>Service Mix &amp; Revenue Quality</h3>
+                        <p>Weekly service accounts with add-on revenue from repairs, equipment, and chemicals are valued higher. Diversified revenue streams reduce risk for buyers.</p>
                     </div>
                     <div class="factor-item">
                         <h3>Market Demand</h3>
-                        <p>Certain markets have higher buyer demand, which drives up valuations. We know which areas are hot.</p>
+                        <p>Certain markets have higher buyer demand than others. We track market conditions across all 50 states and understand which areas command premium pricing.</p>
                     </div>
                 </div>
             </div>
@@ -315,40 +512,49 @@
 
         <section class="faq">
             <h2 class="section-title">Seller FAQ</h2>
+            <div class="gold-line"></div>
             <div class="faq-container">
                 <div class="faq-item">
-                    <h3>How long does it take to sell my route?</h3>
-                    <p>Most routes sell within 2-6 weeks. High-demand markets with strong metrics can sell even faster.</p>
+                    <h3>How long does it take to sell my pool route?</h3>
+                    <p>Most routes receive qualified offers within 2 weeks of listing and close within 4-6 weeks. High-demand markets with strong metrics can move even faster.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>What do I need to provide to get started?</h3>
-                    <p>Monthly service revenue, account count, general service area, and key details about your customer base.</p>
+                    <h3>What information do I need to provide?</h3>
+                    <p>To get started, we need your monthly service revenue, account count, general service area, and key details about your customer base. We'll guide you through exactly what we need during the discovery call.</p>
                 </div>
                 <div class="faq-item">
                     <h3>Will my customers know I'm selling?</h3>
-                    <p>No. We market your route confidentially. Customers are only notified once terms are agreed upon.</p>
+                    <p>No. We market your route confidentially to our vetted buyer network. Customers are only notified once terms are agreed upon and both parties are ready for the transition.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>What are your fees?</h3>
-                    <p>Sell-side brokerage: 1&times; monthly revenue. Buy-side advisory (100+ accounts): buyer pays our fee, you keep 100% of proceeds.</p>
+                    <h3>What is your commission?</h3>
+                    <p>We charge 12% of the total purchase price &mdash; significantly below the industry standard of 16.7%. Our full sell-side advisory service, including valuation, buyer sourcing, negotiation, and transition support, is included.</p>
                 </div>
                 <div class="faq-item">
                     <h3>Do I have to train the buyer?</h3>
-                    <p>Most sales include 1-2 weeks of training to introduce the buyer to accounts and ensure customer retention.</p>
+                    <p>Most sales include 1-2 weeks of training where you introduce the buyer to accounts and share route-specific knowledge. This training period is designed to maximize customer retention during the transition.</p>
                 </div>
                 <div class="faq-item">
                     <h3>What if accounts cancel during the transition?</h3>
-                    <p>Our agreements include provisions for account retention. We work closely with both parties to minimize cancellations.</p>
+                    <p>Our agreements include provisions for account retention during the transition period. We work closely with both parties to minimize cancellations through careful communication and a structured handoff process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I sell just part of my route?</h3>
+                    <p>Yes. If you want to keep some accounts and sell others, we can help structure a partial sale. This is common for operators who want to downsize while keeping a manageable route.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How is the purchase price paid?</h3>
+                    <p>Transactions are conducted through secure third-party escrow. Payment terms vary &mdash; some deals are all-cash at closing, while others include structured payment plans. We help negotiate terms that work for your situation.</p>
                 </div>
             </div>
         </section>
 
         <section class="cta-section">
-            <h2>Ready to Sell Your Route?</h2>
-            <p>Get a free, no-obligation valuation and see what your pool route is worth in today's market.</p>
+            <h2>Find Out What Your Route Is Worth</h2>
+            <p>Get a free, no-obligation valuation from a broker who understands the pool service business from the inside.</p>
             <div class="cta-buttons">
-                <a href="/contact" class="cta-primary">Get Free Valuation</a>
-                <a href="tel:+15126937086" class="cta-secondary-btn">Call (512) 693-7086</a>
+                <a href="/contact" class="cta-btn">Request Free Valuation</a>
+                <a href="tel:+15126937086" class="cta-btn cta-btn-secondary">Call (512) 693-7086</a>
             </div>
         </section>
     </main>
