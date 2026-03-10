@@ -58,7 +58,66 @@
         "name": "United States"
       },
       "priceRange": "$$",
-      "serviceType": "Pool Route Brokerage"
+      "serviceType": "Pool Route Brokerage",
+      "sameAs": [],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pool Route Brokerage Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pool Route Valuation",
+              "description": "Free, no-obligation pool route valuation based on account density, customer retention, revenue quality, and current market conditions."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sell-Side Advisory",
+              "description": "Full-service pool route brokerage at 12% commission including confidential marketing, buyer sourcing, negotiation, contracts, and transition support."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Pool Route Transition Support",
+              "description": "Post-closing transition management including customer notifications, billing handover, training coordination, and account retention support."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Schema.org WebSite for Sitelinks Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Poolside Business Brokers",
+      "url": "https://poolsidebrokers.com",
+      "description": "Nationwide pool route brokerage providing sell-side advisory at an industry-low 12% commission with 25+ vetted buyers.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Poolside Business Brokers",
+        "url": "https://poolsidebrokers.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://poolsidebrokers.com/PBB%20Horizontal%20Logo%20Image.png"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-512-693-7086",
+          "contactType": "sales",
+          "email": "info@poolsidebrokers.com",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      }
     }
     </script>
 
@@ -83,7 +142,7 @@
             height: 100%;
             object-fit: cover;
             z-index: 0;
-            opacity: 0.15;
+            opacity: 0.3;
         }
 
         .hero-home::before {
@@ -93,7 +152,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(180deg, rgba(15,23,42,0.7) 0%, rgba(30,58,95,0.85) 100%);
+            background: linear-gradient(180deg, rgba(15,23,42,0.45) 0%, rgba(30,58,95,0.6) 100%);
             z-index: 1;
         }
 
