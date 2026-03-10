@@ -37,6 +37,41 @@
   </url>
 
   <url>
+    <loc>https://poolsidebrokers.com/blog</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://poolsidebrokers.com/blog/how-to-sell-a-pool-route</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://poolsidebrokers.com/blog/how-to-value-a-pool-route</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://poolsidebrokers.com/blog/how-to-buy-a-pool-route</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://poolsidebrokers.com/blog/pool-route-profit-margins</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://poolsidebrokers.com/contact</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>

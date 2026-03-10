@@ -1,0 +1,191 @@
+{
+  "description": "Content calendar for automated weekly content generation. Items are processed in order. Mark 'status' as 'published' after merging the PR.",
+  "blog_articles": [
+    {
+      "slug": "how-to-sell-a-pool-route",
+      "status": "published"
+    },
+    {
+      "slug": "how-to-value-a-pool-route",
+      "status": "published"
+    },
+    {
+      "slug": "how-to-buy-a-pool-route",
+      "status": "published"
+    },
+    {
+      "slug": "pool-route-profit-margins",
+      "status": "published"
+    },
+    {
+      "slug": "best-time-to-sell-pool-route",
+      "title": "When Is the Best Time to Sell a Pool Route?",
+      "target_keywords": "best time to sell pool route, when to sell pool business, pool route selling season",
+      "brief": "Seasonal patterns in buyer demand, how market timing affects price, and why spring/early summer listings get the best multiples. Include data on when we see the most buyer activity.",
+      "status": "pending"
+    },
+    {
+      "slug": "pool-route-vs-starting-from-scratch",
+      "title": "Buying a Pool Route vs. Starting From Scratch: Which Is Better?",
+      "target_keywords": "buy pool route vs start pool business, pool route vs startup, is buying a pool route worth it",
+      "brief": "Side-by-side comparison of buying an existing route vs building from zero. Cover timeline to profitability, total cost, risk, and realistic expectations for both paths.",
+      "status": "pending"
+    },
+    {
+      "slug": "pool-route-financing-options",
+      "title": "How to Finance a Pool Route Purchase: Complete Guide",
+      "target_keywords": "pool route financing, SBA loan pool route, seller financing pool route, how to finance pool business",
+      "brief": "Deep dive into financing options: cash, seller financing, SBA 7(a), equipment loans, and alternative lenders. Include pros/cons of each, typical terms, and what lenders look for.",
+      "status": "pending"
+    },
+    {
+      "slug": "pool-route-customer-retention-during-sale",
+      "title": "How to Keep Customers During a Pool Route Sale",
+      "target_keywords": "pool route customer retention, pool route transition, selling pool route without losing customers",
+      "brief": "Tactical guide on maximizing customer retention during ownership transitions. Cover communication templates, introduction best practices, common mistakes, and what retention guarantees protect.",
+      "status": "pending"
+    },
+    {
+      "slug": "what-makes-a-pool-route-valuable",
+      "title": "The 7 Factors That Make a Pool Route More Valuable",
+      "target_keywords": "valuable pool route, increase pool route value, pool route worth more, pool business value factors",
+      "brief": "Listicle-style guide on the specific factors that drive premium multiples. Actionable advice on how sellers can improve each factor before listing.",
+      "status": "pending"
+    },
+    {
+      "slug": "pool-route-due-diligence-checklist",
+      "title": "Pool Route Due Diligence Checklist for Buyers",
+      "target_keywords": "pool route due diligence, pool route checklist, what to check before buying pool route",
+      "brief": "Comprehensive checklist buyers should follow before purchasing. Cover financials, customer quality, route density, equipment, contracts, insurance, and red flags to watch for.",
+      "status": "pending"
+    },
+    {
+      "slug": "how-many-pools-can-one-person-clean",
+      "title": "How Many Pools Can One Person Clean Per Day?",
+      "target_keywords": "how many pools per day, pool route capacity, pools per day one person, solo pool route size",
+      "brief": "Practical guide on daily capacity. Cover factors like drive time, pool size, service type, equipment efficiency. Tie back to why 60 accounts is the solo max and what affects daily throughput.",
+      "status": "pending"
+    },
+    {
+      "slug": "pool-route-non-compete-agreements",
+      "title": "Pool Route Non-Compete Agreements: What You Need to Know",
+      "target_keywords": "pool route non-compete, pool business non-compete agreement, selling pool route non-compete",
+      "brief": "Guide covering non-compete clauses in pool route sales. What's standard, what's enforceable, typical terms (distance, duration), and how they protect both buyer and seller.",
+      "status": "pending"
+    }
+  ],
+  "city_landing_pages": [
+    {
+      "slug": "phoenix-az",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "metro": "Phoenix Metro",
+      "status": "pending"
+    },
+    {
+      "slug": "dallas-tx",
+      "city": "Dallas",
+      "state": "Texas",
+      "metro": "Dallas-Fort Worth",
+      "status": "pending"
+    },
+    {
+      "slug": "houston-tx",
+      "city": "Houston",
+      "state": "Texas",
+      "metro": "Greater Houston",
+      "status": "pending"
+    },
+    {
+      "slug": "austin-tx",
+      "city": "Austin",
+      "state": "Texas",
+      "metro": "Austin Metro",
+      "status": "pending"
+    },
+    {
+      "slug": "san-antonio-tx",
+      "city": "San Antonio",
+      "state": "Texas",
+      "metro": "San Antonio Metro",
+      "status": "pending"
+    },
+    {
+      "slug": "tampa-fl",
+      "city": "Tampa",
+      "state": "Florida",
+      "metro": "Tampa Bay",
+      "status": "pending"
+    },
+    {
+      "slug": "orlando-fl",
+      "city": "Orlando",
+      "state": "Florida",
+      "metro": "Central Florida",
+      "status": "pending"
+    },
+    {
+      "slug": "jacksonville-fl",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "metro": "Jacksonville Metro",
+      "status": "pending"
+    },
+    {
+      "slug": "miami-fl",
+      "city": "Miami",
+      "state": "Florida",
+      "metro": "South Florida",
+      "status": "pending"
+    },
+    {
+      "slug": "los-angeles-ca",
+      "city": "Los Angeles",
+      "state": "California",
+      "metro": "Greater Los Angeles",
+      "status": "pending"
+    },
+    {
+      "slug": "san-diego-ca",
+      "city": "San Diego",
+      "state": "California",
+      "metro": "San Diego County",
+      "status": "pending"
+    },
+    {
+      "slug": "riverside-ca",
+      "city": "Riverside",
+      "state": "California",
+      "metro": "Inland Empire",
+      "status": "pending"
+    },
+    {
+      "slug": "sacramento-ca",
+      "city": "Sacramento",
+      "state": "California",
+      "metro": "Sacramento Metro",
+      "status": "pending"
+    },
+    {
+      "slug": "las-vegas-nv",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "metro": "Las Vegas Valley",
+      "status": "pending"
+    },
+    {
+      "slug": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "metro": "Metro Atlanta",
+      "status": "pending"
+    },
+    {
+      "slug": "charlotte-nc",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "metro": "Charlotte Metro",
+      "status": "pending"
+    }
+  ]
+}
