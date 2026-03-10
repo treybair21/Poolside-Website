@@ -3,7 +3,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
 <nav role="navigation" aria-label="Main navigation">
     <div class="logo">
         <a href="/">
-            <img src="PBB Horizontal Logo Thumbnail.png" alt="Poolside Business Brokers - Home">
+            <img src="pbb-logo-horizontal.png" alt="Poolside Business Brokers - Home">
         </a>
     </div>
     <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks" onclick="toggleMenu()">&#9776;</button>
@@ -22,7 +22,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
 const footerHTML = `<footer role="contentinfo">
     <div class="footer-content">
         <div class="footer-section">
-            <img src="PBB Vertical Logo Thumbnail.png" alt="Poolside Business Brokers" class="footer-logo">
+            <img src="pbb-logo-vertical-white.png" alt="Poolside Business Brokers" class="footer-logo">
             <p>Sell-side advisory for pool service businesses. Industry-low 12% commission. Nationwide coverage.</p>
         </div>
 
