@@ -32,8 +32,23 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up git config for CI
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
+
+      - name: Verify API key is set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::ANTHROPIC_API_KEY secret is not set. Add it in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "API key is configured."
 
       - name: Determine content type
         id: content-type
@@ -52,7 +67,7 @@ jobs:
 
       - name: Generate content with Claude
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_KEY }}
         run: |
           CONTENT_TYPE="${{ steps.content-type.outputs.type }}"
           BRANCH_NAME="content/auto-$(date +%Y%m%d)-${CONTENT_TYPE}"
