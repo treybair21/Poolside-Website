@@ -528,7 +528,27 @@
 
     <script src="common.js"></script>
     <script>
-    const routes = [];
+    const routes = [
+        {
+            id: 'TX-AUS-014',
+            city: 'Austin',
+            state: 'TX',
+            price: 168000,
+            accounts: 55,
+            monthlyRevenue: 14000,
+            annualRevenue: 168000,
+            serviceType: 'Residential Weekly Service + Repairs',
+            description: 'Established pool service and repair route spanning the greater Austin, TX area, covering North, Northwest, and West Austin from Bee Cave to Liberty Hill to Pflugerville and everywhere in between. The route is owned and managed by the current owner, with two technicians performing all service and repair work, making it an attractive semi-absentee opportunity. With 55 accounts averaging roughly $255/month, this is a premium, well-priced route with a strong recurring revenue base.',
+            highlights: [
+                '55 accounts across North, Northwest, and West Austin (Bee Cave to Liberty Hill to Pflugerville and everywhere in between)',
+                'Above-average monthly rate of approximately $255 per account',
+                'Two technicians handle all service and repair work — owner manages the route without performing the labor',
+                'Additional repair revenue averaging $6,000/month on top of $14,000/month in recurring service revenue',
+                '$168,000 asking price at 12x monthly service revenue',
+                'Turnkey semi-absentee operation ideal for an owner who wants to manage rather than work in the business'
+            ]
+        }
+    ];
 
     function formatCurrency(num) {
         return '$' + num.toLocaleString();
