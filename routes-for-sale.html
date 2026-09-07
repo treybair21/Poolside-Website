@@ -117,20 +117,22 @@
 
         .filter-group input::placeholder { color: var(--text-muted); }
 
+        .filter-group select { color: var(--text-muted); }
+        .filter-group select.has-value { color: var(--text-heading); }
+
         .reset-btn {
             padding: 10px 24px;
             background: var(--blue);
             color: var(--white);
-            border: none;
+            border: 1px solid var(--blue);
             border-radius: var(--radius);
             cursor: pointer;
-            font-size: 0.8em;
+            font-size: 0.95em;
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             transition: background 0.3s;
             width: 100%;
-            height: 42px;
             font-family: inherit;
         }
 
@@ -177,7 +179,7 @@
 
         .price-container { display: flex; flex-direction: column; align-items: flex-end; }
         .price-label { font-size: 0.65em; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); margin-bottom: 4px; }
-        .price { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4em; font-weight: 700; color: var(--blue); }
+        .price { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4em; font-weight: 700; color: var(--white); }
 
         .route-body { padding: 24px; }
 
@@ -459,6 +461,7 @@
                         </div>
                     </div>
                     <div class="filter-group">
+                        <label aria-hidden="true">&nbsp;</label>
                         <button class="reset-btn" onclick="resetFilters()">Reset</button>
                     </div>
                 </div>
@@ -531,7 +534,7 @@
     <script>
     const routes = [
         {
-            id: 'TX-AUS-014',
+            id: 'TX-0010',
             city: 'Austin',
             state: 'TX',
             price: 168000,
@@ -702,6 +705,11 @@
     function handleSubmit(event) {
     }
 
+    function updateStateSelectColor() {
+        const select = document.getElementById('filterState');
+        select.classList.toggle('has-value', select.value !== '');
+    }
+
     function resetFilters() {
         document.getElementById('searchCity').value = '';
         document.getElementById('filterState').value = '';
@@ -711,6 +719,7 @@
         document.getElementById('maxAccounts').value = '';
         document.getElementById('minRevenue').value = '';
         document.getElementById('maxRevenue').value = '';
+        updateStateSelectColor();
         renderRoutes();
     }
 
@@ -739,6 +748,8 @@
             if (el) el.addEventListener('input', renderRoutes);
             if (el) el.addEventListener('change', renderRoutes);
         });
+
+        document.getElementById('filterState').addEventListener('change', updateStateSelectColor);
     });
     </script>
 </body>
