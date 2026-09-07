@@ -528,7 +528,27 @@
 
     <script src="common.js"></script>
     <script>
-    const routes = [];
+    const routes = [
+        {
+            id: 'TX-AUS-014',
+            city: 'Austin',
+            state: 'TX',
+            price: 77000,
+            accounts: 50,
+            monthlyRevenue: 7000,
+            annualRevenue: 84000,
+            serviceType: 'Residential Weekly Service',
+            description: 'Well-established pool service route covering the Austin, TX metro area, including North Austin, Cedar Park, and Round Rock. The route has a loyal, long-tenured residential customer base with minimal churn, and its 50 accounts sit comfortably within the range a single owner-operator can manage. Stops are tightly clustered, keeping drive time low and days efficient.',
+            highlights: [
+                '50 residential accounts, well within solo-operator capacity',
+                'Dense, efficient route with low drive time between stops',
+                'Strong customer retention with many long-tenured accounts',
+                'Chemical costs running near the industry-standard ~20% of revenue',
+                'Net profit margin in the 50-55% range for an owner-operator',
+                'Seller available to assist with a smooth transition and training period'
+            ]
+        }
+    ];
 
     function formatCurrency(num) {
         return '$' + num.toLocaleString();
