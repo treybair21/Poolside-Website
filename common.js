@@ -16,7 +16,7 @@ const headerHTML = `<a href="#main-content" class="skip-nav">Skip to main conten
         <li role="none"><a href="/success-stories" role="menuitem">Success Stories</a></li>
         <li role="none"><a href="/blog" role="menuitem">Blog</a></li>
         <li role="none"><a href="/contact" role="menuitem">Contact</a></li>
-        <li role="none"><a href="tel:+15126937086" class="phone-btn" role="menuitem">(512) 693-7086</a></li>
+        <li role="none"><a href="tel:+15126937016" class="phone-btn" role="menuitem">(512) 693-7016</a></li>
     </ul>
 </nav>`;
 
@@ -31,7 +31,7 @@ const footerHTML = `<footer role="contentinfo">
         <div class="footer-section">
             <h3>Contact</h3>
             <ul>
-                <li><a href="tel:+15126937086">(512) 693-7086</a></li>
+                <li><a href="tel:+15126937016">(512) 693-7016</a></li>
                 <li><a href="mailto:info@poolsidebrokers.com">info@poolsidebrokers.com</a></li>
                 <li style="color: rgba(255,255,255,0.5); font-size: 0.95em;">Serving All 50 States</li>
             </ul>
