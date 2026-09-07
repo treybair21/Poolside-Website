@@ -23,6 +23,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Schema.org Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tara",
+      "jobTitle": "Owner & Broker",
+      "image": "https://poolsidebrokers.com/tara-headshot.jpg",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Poolside Business Brokers",
+        "url": "https://poolsidebrokers.com"
+      },
+      "url": "https://poolsidebrokers.com/about-us"
+    }
+    </script>
+
     <!-- Schema.org BreadcrumbList -->
     <script type="application/ld+json">
     {
@@ -77,6 +94,37 @@
             font-weight: 700;
             letter-spacing: -0.02em;
             line-height: 1.15;
+        }
+
+        .founder-bio {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 48px;
+            padding-bottom: 48px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .founder-photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+            border: 1px solid var(--border);
+        }
+
+        .founder-bio-text h2 {
+            font-size: 1.6em;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .founder-bio {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
         }
 
         .story-content {
@@ -212,17 +260,22 @@
     <main id="main-content">
         <section class="hero">
             <h1>About Poolside Business Brokers</h1>
-            <p>Pool industry operators delivering expert brokerage services with the perspective that only comes from running the business ourselves</p>
+            <p>Run by someone who's actually owned a pool route, not just brokered one</p>
         </section>
 
         <section class="story">
-            <p class="section-label">Our Story</p>
-            <h2>Built on Firsthand Pool Industry Experience</h2>
+            <div class="founder-bio">
+                <img src="tara-headshot.jpg" alt="Tara, owner and broker at Poolside Business Brokers" class="founder-photo">
+                <div class="founder-bio-text">
+                    <p class="section-label">Meet Tara</p>
+                    <h2 style="margin-bottom: 8px;">Owner &amp; Broker</h2>
+                    <p style="color: var(--text-body); font-size: 1.05em; line-height: 1.8;">I'm the person you'll actually talk to when you call. Before I started brokering pool routes, I owned and ran them myself, so I've been on the other side of every conversation I have with a seller.</p>
+                </div>
+            </div>
             <div class="story-content">
-                <p>Poolside Business Brokers exists because the pool route brokerage industry needed something different. After years of operating in the pool service industry &mdash; buying, selling, and managing over 1,500 accounts &mdash; we saw the gap between what traditional brokers offered and what pool route owners actually needed.</p>
-                <p>Traditional brokers apply generic business valuations to pool routes. They don't understand why a 60-account route in a tight geographic cluster can be worth more than a 100-account route spread across three counties. They don't know why autopay penetration matters, or how seasonal service mix affects buyer interest, or what a realistic customer retention rate looks like during a transition.</p>
-                <p>We built Poolside Business Brokers to bring that operator-level understanding to the brokerage process. We've hired technicians, managed chemical costs, dealt with equipment failures, handled customer cancellations, and navigated the complexities of route acquisitions. That experience informs everything we do &mdash; from how we value routes to how we prepare them for sale to how we support the transition after closing.</p>
-                <p>Today, we serve pool service business owners across all 50 states with a simple model: sell-side advisory at 12% of the purchase price, backed by a curated network of 25+ vetted, high-intent buyers. No inflated commissions, no passive listing services, no generic approach. Just hands-on brokerage from people who understand the business.</p>
+                <p>Poolside Business Brokers exists because I got tired of watching pool route owners get bad advice from brokers who'd never actually run a route. I had, and I knew the difference it made: why a tightly clustered 60-account route can be worth more than a 100-account route scattered across three counties, why autopay penetration matters, why "customer retention" isn't just a number on a spreadsheet.</p>
+                <p>Since starting the brokerage, we've helped transact over 1,500 pool service accounts across all 50 states. That track record comes from pricing routes the way an operator would, not the way a generic business-valuation formula would.</p>
+                <p>Today, the model is simple: sell-side advisory at 12% of the purchase price, backed by a network of 25+ vetted, high-intent buyers. No inflated commissions, no passive listing service, no cookie-cutter approach. Just someone who's run a route handling the sale of yours.</p>
             </div>
         </section>
 
@@ -245,7 +298,7 @@
                 </div>
                 <div class="expertise-card">
                     <h3>Industry-Low Commission</h3>
-                    <p>We charge 12% of the purchase price &mdash; significantly below the industry standard of 16.7%. Our fee structure aligns our incentives with yours: we earn more when your route sells for more.</p>
+                    <p>We charge 12% of the purchase price, well below the industry standard of 16.7%. Our fee structure aligns our incentives with yours: we earn more when your route sells for more.</p>
                 </div>
                 <div class="expertise-card">
                     <h3>Confidential Marketing</h3>
@@ -264,7 +317,7 @@
             <div class="values-grid">
                 <div class="value-card">
                     <h3>Transparency</h3>
-                    <p>No hidden fees, no surprises, no fine print. We communicate clearly throughout the process &mdash; from our commission structure to our valuation methodology to our timeline expectations.</p>
+                    <p>No hidden fees, no surprises, no fine print. We'll walk you through our commission structure, how we value your route, and what the timeline actually looks like before you sign anything.</p>
                 </div>
                 <div class="value-card">
                     <h3>Expertise</h3>
@@ -272,7 +325,7 @@
                 </div>
                 <div class="value-card">
                     <h3>Results</h3>
-                    <p>Our 12% commission means we're financially aligned with maximizing your sale price. We don't just want to close &mdash; we want to get you the best possible outcome.</p>
+                    <p>Our 12% commission means we're financially aligned with maximizing your sale price. Closing a deal is easy. Getting you the best outcome is the actual job.</p>
                 </div>
                 <div class="value-card">
                     <h3>Partnership</h3>
