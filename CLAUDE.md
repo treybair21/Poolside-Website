@@ -1,7 +1,7 @@
 # Poolside Business Brokers Website
 
 ## About the Business
-Poolside Business Brokers is a sell-side advisory firm for pool service businesses (pool routes), run by a husband-and-wife team. We charge an industry-low 12% commission and serve all 50 states. Phone: (512) 693-7086.
+Poolside Business Brokers is a sell-side advisory firm for pool service businesses (pool routes), run as a team led by Tara. We charge an industry-low 12% commission and serve all 50 states. Phone: (512) 693-7086. In content, refer to Tara by name; refer to the rest of the team collectively ("as a team," "our team") without naming or specifying anyone else.
 
 IMPORTANT — do not conflate these two numbers:
 - **1,500+ accounts** is the founders' *personal* operating history: combined, they've bought and sold over 1,500 accounts running their own separate pool service companies, before ever brokering a deal for someone else. Use this for founder/operator-credibility content (About page, bios, "why trust our valuations").
