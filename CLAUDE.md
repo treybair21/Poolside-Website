@@ -19,6 +19,15 @@ Never write "we've transacted/brokered/sold 1,500+ accounts" — that overstates
 - Most routes receive qualified offers within **2 weeks of listing**
 - Typical close timeline: **4-6 weeks** from listing
 
+## Google Business Profile / Reviews
+- Google Business Profile link: https://share.google/nUfty4U4LkNZjhjBB
+- This is linked in `sameAs` in the LocalBusiness schema on `index.html` and every page in `/locations/`
+- Current rating/count (as of 2026-09-08): **5.0 stars, 1 review**. This number is hardcoded in THREE places that must always match each other exactly, or the review markup can be seen as inconsistent/self-serving by Google:
+  1. `index.html` — the `aggregateRating` block in the LocalBusiness schema
+  2. `index.html` — the visible "Google rating badge" under the hero CTAs (`.google-rating-badge`)
+  3. Nowhere else currently displays the number, but if it's added elsewhere it must match too
+- **When the review count changes, update both the schema and the visible badge on `index.html` together** — never update one without the other.
+
 ## Website Structure
 - Static HTML site hosted at poolsidebrokers.com
 - Shared header/footer loaded via `common.js` (placeholder divs)

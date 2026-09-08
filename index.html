@@ -64,7 +64,14 @@
         "name": "Tara",
         "jobTitle": "Co-Owner & Broker"
       },
-      "sameAs": [],
+      "sameAs": ["https://share.google/nUfty4U4LkNZjhjBB"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "1",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Pool Route Brokerage Services",
@@ -201,6 +208,31 @@
             justify-content: center;
             flex-wrap: wrap;
             margin-top: 44px;
+        }
+
+        .google-rating-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 28px;
+            padding: 8px 18px;
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 999px;
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.88em;
+            font-weight: 500;
+            transition: border-color 0.3s, color 0.3s;
+        }
+
+        .google-rating-badge:hover {
+            border-color: rgba(255,255,255,0.5);
+            color: var(--white);
+        }
+
+        .google-rating-badge .stars {
+            color: #fbbf24;
+            letter-spacing: 1px;
         }
 
         /* Trust Bar */
@@ -686,6 +718,10 @@
                     <a href="/contact" class="cta-btn">Get Your Free Valuation</a>
                     <a href="/sellers" class="cta-btn cta-btn-secondary">How It Works</a>
                 </div>
+                <a href="https://share.google/nUfty4U4LkNZjhjBB" target="_blank" rel="noopener noreferrer" class="google-rating-badge">
+                    <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span>5.0 (1 review) on Google</span>
+                </a>
             </div>
         </section>
 
